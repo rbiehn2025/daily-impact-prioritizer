@@ -1,0 +1,24 @@
+{
+  "name": "daily-impact-prioritizer-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily automation: rank impact work and block prep time on Google Calendar",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "plan": "tsx src/cli.ts plan",
+    "format-events": "tsx src/cli.ts format-events",
+    "export-ics": "tsx src/cli.ts export-ics",
+    "daily": "tsx src/cli.ts daily"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

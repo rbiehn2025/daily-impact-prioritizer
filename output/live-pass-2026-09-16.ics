@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//daily-impact-prioritizer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260917T090000-PrepFallRelease301prerea@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260917T090000
+DTEND;TZID=America/New_York:20260917T094000
+SUMMARY:🎯 Prep: Fall Release 301: pre-read + submit product questions
+DESCRIPTION:Expected outcome Notes on 3 customer-relevant features plus 2
+  questions submitted via the form. Why now Live internal 301 on Sep 17 c
+ overs Integrations Hub\, RCS\, Journeys Live Data\; pre-reading doc and 
+ form are required prep. Source https://docs.google.com/document/d/1Co8dW
+ xPXVvdotc1KEYp-vP-F-a1SE7zoG1J99hxSw6I/edit Managed by daily-impact-prio
+ ritizer. Run date: 2026-09-16
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260917T094000-PrepCandidlySMSoptindocu@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260917T094000
+DTEND;TZID=America/New_York:20260917T102000
+SUMMARY:🎯 Prep: Candidly SMS opt-in: document merge API reconciliation s
+ teps
+DESCRIPTION:Expected outcome Short implementation note with API sequence 
+ and test cases for Candidly. Why now Active project from recent work: tw
+ o-journey SMS opt-in needs merge API after email capture. Source https:/
+ /app.glean.com/ Managed by daily-impact-prioritizer. Run date: 2026-09-1
+ 6
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260918T133000-PrepPayPalHoneyarchitect@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260918T133000
+DTEND;TZID=America/New_York:20260918T141500
+SUMMARY:🎯 Prep: PayPal Honey architecture review: integration and data-f
+ low checklist
+DESCRIPTION:Expected outcome One-page checklist of integration points\, o
+ pen risks\, and 3 discovery questions. Why now External architecture rev
+ iew Sep 18\; no dedicated prep block yet after removing placeholders. So
+ urce https://www.google.com/calendar/event?eid=MjQ0NGx1cHJkbGxyNWV2cHNxa
+ WluYWtwdXUg Managed by daily-impact-prioritizer. Run date: 2026-09-16
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260918T111500-PrepG2SAhandoffreviewdec@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260918T111500
+DTEND;TZID=America/New_York:20260918T114500
+SUMMARY:🎯 Prep: G2 SA handoff: review deck and open follow-ups
+DESCRIPTION:Expected outcome Bulleted handoff notes: decisions made\, ope
+ n customer threads\, next actions. Why now Internal G2 sync Sep 18 as Ma
+ nan transitions\; overview deck linked in invite. Source https://docs.go
+ ogle.com/presentation/d/1CRKj9eUvn5Z0QZDau0A2k53k2El_6at7ThthsKChZc8/edi
+ t Managed by daily-impact-prioritizer. Run date: 2026-09-16
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

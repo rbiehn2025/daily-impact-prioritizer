@@ -1,0 +1,14 @@
+[
+  {
+    "id": "example-prep-block",
+    "title": "Prepare customer call: three outcomes and open questions",
+    "rationale": "External meeting in the afternoon; sparse agenda in invite.",
+    "timeboxMinutes": 30,
+    "expectedOutcome": "Bulleted plan with 3 outcomes and 3 questions sent or ready to send.",
+    "sourceTitle": "Calendar invite",
+    "sourceUrl": "https://www.google.com/calendar/event?eid=example",
+    "urgencyScore": 8,
+    "impactScore": 7,
+    "targetDate": "2026-09-18"
+  }
+]

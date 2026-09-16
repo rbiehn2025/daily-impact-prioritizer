@@ -1,0 +1,60 @@
+{
+  "timezone": "America/New_York",
+  "generatedAt": "2026-09-16T14:10:43.765Z",
+  "runDate": "2026-09-16",
+  "days": [
+    {
+      "date": "2026-09-16",
+      "blocks": [],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-09-17",
+      "blocks": [
+        {
+          "workItemId": "fall-release-301-preread",
+          "title": "🎯 Prep: Fall Release 301: pre-read + submit product questions",
+          "startLocal": "2026-09-17T09:00:00",
+          "endLocal": "2026-09-17T09:40:00",
+          "expectedOutcome": "Notes on 3 customer-relevant features plus 2 questions submitted via the form.",
+          "sourceUrl": "https://docs.google.com/document/d/1Co8dWxPXVvdotc1KEYp-vP-F-a1SE7zoG1J99hxSw6I/edit",
+          "rationale": "Live internal 301 on Sep 17 covers Integrations Hub, RCS, Journeys Live Data; pre-reading doc and form are required prep."
+        },
+        {
+          "workItemId": "candidly-sms-merge-plan",
+          "title": "🎯 Prep: Candidly SMS opt-in: document merge API reconciliation steps",
+          "startLocal": "2026-09-17T09:40:00",
+          "endLocal": "2026-09-17T10:20:00",
+          "expectedOutcome": "Short implementation note with API sequence and test cases for Candidly.",
+          "sourceUrl": "https://app.glean.com/",
+          "rationale": "Active project from recent work: two-journey SMS opt-in needs merge API after email capture."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-09-18",
+      "blocks": [
+        {
+          "workItemId": "paypal-honey-architecture-prep",
+          "title": "🎯 Prep: PayPal Honey architecture review: integration and data-flow checklist",
+          "startLocal": "2026-09-18T13:30:00",
+          "endLocal": "2026-09-18T14:15:00",
+          "expectedOutcome": "One-page checklist of integration points, open risks, and 3 discovery questions.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=MjQ0NGx1cHJkbGxyNWV2cHNxaWluYWtwdXUg",
+          "rationale": "External architecture review Sep 18; no dedicated prep block yet after removing placeholders."
+        },
+        {
+          "workItemId": "g2-handoff-prep",
+          "title": "🎯 Prep: G2 SA handoff: review deck and open follow-ups",
+          "startLocal": "2026-09-18T11:15:00",
+          "endLocal": "2026-09-18T11:45:00",
+          "expectedOutcome": "Bulleted handoff notes: decisions made, open customer threads, next actions.",
+          "sourceUrl": "https://docs.google.com/presentation/d/1CRKj9eUvn5Z0QZDau0A2k53k2El_6at7ThthsKChZc8/edit",
+          "rationale": "Internal G2 sync Sep 18 as Manan transitions; overview deck linked in invite."
+        }
+      ],
+      "unassignedItemIds": []
+    }
+  ]
+}

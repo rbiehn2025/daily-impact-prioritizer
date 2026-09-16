@@ -1,0 +1,42 @@
+[
+  {
+    "summary": "🎯 Prep: Fall Release 301: pre-read + submit product questions",
+    "description": "<b>Expected outcome</b><br>Notes on 3 customer-relevant features plus 2 questions submitted via the form.<br><br><b>Why now</b><br>Live internal 301 on Sep 17 covers Integrations Hub, RCS, Journeys Live Data; pre-reading doc and form are required prep.<br><br><b>Source</b><br><a href='https://docs.google.com/document/d/1Co8dWxPXVvdotc1KEYp-vP-F-a1SE7zoG1J99hxSw6I/edit'>https://docs.google.com/document/d/1Co8dWxPXVvdotc1KEYp-vP-F-a1SE7zoG1J99hxSw6I/edit</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-16</i>",
+    "start_datetime": "2026-09-17T09:00:00",
+    "end_datetime": "2026-09-17T09:40:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-16\",\"dip_work_item_id\":\"fall-release-301-preread\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Candidly SMS opt-in: document merge API reconciliation steps",
+    "description": "<b>Expected outcome</b><br>Short implementation note with API sequence and test cases for Candidly.<br><br><b>Why now</b><br>Active project from recent work: two-journey SMS opt-in needs merge API after email capture.<br><br><b>Source</b><br><a href='https://app.glean.com/'>https://app.glean.com/</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-16</i>",
+    "start_datetime": "2026-09-17T09:40:00",
+    "end_datetime": "2026-09-17T10:20:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-16\",\"dip_work_item_id\":\"candidly-sms-merge-plan\"}}"
+  },
+  {
+    "summary": "🎯 Prep: PayPal Honey architecture review: integration and data-flow checklist",
+    "description": "<b>Expected outcome</b><br>One-page checklist of integration points, open risks, and 3 discovery questions.<br><br><b>Why now</b><br>External architecture review Sep 18; no dedicated prep block yet after removing placeholders.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=MjQ0NGx1cHJkbGxyNWV2cHNxaWluYWtwdXUg'>https://www.google.com/calendar/event?eid=MjQ0NGx1cHJkbGxyNWV2cHNxaWluYWtwdXUg</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-16</i>",
+    "start_datetime": "2026-09-18T13:30:00",
+    "end_datetime": "2026-09-18T14:15:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-16\",\"dip_work_item_id\":\"paypal-honey-architecture-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: G2 SA handoff: review deck and open follow-ups",
+    "description": "<b>Expected outcome</b><br>Bulleted handoff notes: decisions made, open customer threads, next actions.<br><br><b>Why now</b><br>Internal G2 sync Sep 18 as Manan transitions; overview deck linked in invite.<br><br><b>Source</b><br><a href='https://docs.google.com/presentation/d/1CRKj9eUvn5Z0QZDau0A2k53k2El_6at7ThthsKChZc8/edit'>https://docs.google.com/presentation/d/1CRKj9eUvn5Z0QZDau0A2k53k2El_6at7ThthsKChZc8/edit</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-16</i>",
+    "start_datetime": "2026-09-18T11:15:00",
+    "end_datetime": "2026-09-18T11:45:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-16\",\"dip_work_item_id\":\"g2-handoff-prep\"}}"
+  }
+]

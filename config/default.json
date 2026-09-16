@@ -1,0 +1,37 @@
+{
+  "timezone": "America/New_York",
+  "schedule": {
+    "weekdaysOnly": true,
+    "defaultRunHourLocal": 9,
+    "planHorizon": "this_week"
+  },
+  "workingHours": {
+    "start": "09:00",
+    "end": "18:00"
+  },
+  "slots": {
+    "minBlockMinutes": 25,
+    "meetingBufferMinutes": 10,
+    "maxBlocksPerDay": 4
+  },
+  "calendar": {
+    "calendarId": "primary",
+    "eventTitlePrefix": "🎯 Prep: ",
+    "visibility": "private",
+    "createMeetingRoom": false,
+    "managedMarker": "daily-impact-prioritizer",
+    "delivery": "ics_fallback",
+    "googleCalendarWrites": false,
+    "dailyOutputBaseDir": "output/daily",
+    "commitArtifactsToGit": true,
+    "skipTitlePatterns": [
+      "^Home$",
+      "^🧠 Focus Time$"
+    ]
+  },
+  "ranking": {
+    "maxWorkItems": 5,
+    "activityLookbackDays": 14,
+    "maxGleanSearches": 2
+  }
+}
