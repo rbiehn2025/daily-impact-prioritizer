@@ -1,0 +1,52 @@
+[
+  {
+    "summary": "🎯 Prep: Wawa duplicate automation: finalize call decisions and pilot asks",
+    "description": "<b>Expected outcome</b><br>One-page call sheet with agenda, discovery questions, pilot scope, and desired next steps from Melinda/Stephen.<br><br><b>Why now</b><br>Customer call today on automating duplicate handling; prep brief exists—need three decisions (root cause, Smart Ingest positioning, pilot owners) locked before 1:30 PM ET.<br><br><b>Source</b><br><a href='https://app.glean.com/library/36d712c5bdc3458596b3e286f67d4a8b'>https://app.glean.com/library/36d712c5bdc3458596b3e286f67d4a8b</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-16</i>",
+    "start_datetime": "2026-09-16T14:30:00",
+    "end_datetime": "2026-09-16T15:10:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-16\",\"dip_work_item_id\":\"wawa-duplicate-automation\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Prepare Platform Audit Sync: define 3 outcomes and 3 questions",
+    "description": "<b>Expected outcome</b><br>Three desired outcomes and three questions written and ready to use in Michael / Robert - Platform Audit Sync.<br><br><b>Why now</b><br>Internal platform audit sync at noon ET; invite has little agenda detail—need a tight outcome list before the meeting.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=MDJxM2Q2ODFoZDI1MjZyYTlkdGV2cDhhbWcgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ'>https://www.google.com/calendar/event?eid=MDJxM2Q2ODFoZDI1MjZyYTlkdGV2cDhhbWcgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-16</i>",
+    "start_datetime": "2026-09-16T09:00:00",
+    "end_datetime": "2026-09-16T09:25:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-16\",\"dip_work_item_id\":\"platform-audit-sync-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Prepare Boll & Branch TMR: discovery outline for data flow and integrations",
+    "description": "<b>Expected outcome</b><br>One-page discovery outline with technical questions and gap checklist for the customer meeting.<br><br><b>Why now</b><br>External SA meeting today; TMR focus areas are journey structure, data/event flow, architecture, Shopify/Segment integrations, and gaps.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=MGk5dW9pbGlzcGVqNWFpM2ViM2s5ODlwa2Mgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ'>https://www.google.com/calendar/event?eid=MGk5dW9pbGlzcGVqNWFpM2ViM2s5ODlwa2Mgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-16</i>",
+    "start_datetime": "2026-09-16T17:00:00",
+    "end_datetime": "2026-09-16T17:30:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-16\",\"dip_work_item_id\":\"boll-branch-tmr\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Close SALT deployment loop: verify impact and draft update",
+    "description": "<b>Expected outcome</b><br>Confirmed deployment impact documented plus short customer/internal status update ready to send.<br><br><b>Why now</b><br>SALT deploy completed per eng thread; customer needed the change this week—verify outcome and draft a concise status update.<br><br><b>Source</b><br><a href='https://iterable.slack.com/archives/CNTV3D1BN/p1788991686558489'>https://iterable.slack.com/archives/CNTV3D1BN/p1788991686558489</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-16</i>",
+    "start_datetime": "2026-09-16T17:30:00",
+    "end_datetime": "2026-09-16T18:00:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-16\",\"dip_work_item_id\":\"salt-deployment-loop\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Finalize Ria/XE options memo: migration versus fresh project",
+    "description": "<b>Expected outcome</b><br>Decision brief comparing migration vs fresh project with pricing/overages implications and open questions for the customer.<br><br><b>Why now</b><br>Active deal-team thread on User ID migration vs fresh project and threshold implications; memo requested in Slack.<br><br><b>Source</b><br><a href='https://iterable.slack.com/archives/C08AKAT97ND/p1788535118240819'>https://iterable.slack.com/archives/C08AKAT97ND/p1788535118240819</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-16</i>",
+    "start_datetime": "2026-09-17T12:30:00",
+    "end_datetime": "2026-09-17T13:10:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-16\",\"dip_work_item_id\":\"ria-xe-options-memo\"}}"
+  }
+]

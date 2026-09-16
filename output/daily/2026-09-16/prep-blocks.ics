@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//daily-impact-prioritizer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260916T143000-PrepWawaduplicateautomat@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260916T143000
+DTEND;TZID=America/New_York:20260916T151000
+SUMMARY:🎯 Prep: Wawa duplicate automation: finalize call decisions and p
+ ilot asks
+DESCRIPTION:Expected outcome One-page call sheet with agenda\, discovery 
+ questions\, pilot scope\, and desired next steps from Melinda/Stephen. W
+ hy now Customer call today on automating duplicate handling\; prep brief
+  exists—need three decisions (root cause\, Smart Ingest positioning\, pi
+ lot owners) locked before 1:30 PM ET. Source https://app.glean.com/libra
+ ry/36d712c5bdc3458596b3e286f67d4a8b Managed by daily-impact-prioritizer.
+  Run date: 2026-09-16
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260916T090000-PrepPreparePlatformAudit@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260916T090000
+DTEND;TZID=America/New_York:20260916T092500
+SUMMARY:🎯 Prep: Prepare Platform Audit Sync: define 3 outcomes and 3 que
+ stions
+DESCRIPTION:Expected outcome Three desired outcomes and three questions w
+ ritten and ready to use in Michael / Robert - Platform Audit Sync. Why n
+ ow Internal platform audit sync at noon ET\; invite has little agenda de
+ tail—need a tight outcome list before the meeting. Source https://www.go
+ ogle.com/calendar/event?eid=MDJxM2Q2ODFoZDI1MjZyYTlkdGV2cDhhbWcgcm9iZXJ0
+ LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by daily-impact-prioritizer. Run date
+ : 2026-09-16
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260916T170000-PrepPrepareBollBranchTMR@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260916T170000
+DTEND;TZID=America/New_York:20260916T173000
+SUMMARY:🎯 Prep: Prepare Boll & Branch TMR: discovery outline for data fl
+ ow and integrations
+DESCRIPTION:Expected outcome One-page discovery outline with technical qu
+ estions and gap checklist for the customer meeting. Why now External SA 
+ meeting today\; TMR focus areas are journey structure\, data/event flow\
+ , architecture\, Shopify/Segment integrations\, and gaps. Source https:/
+ /www.google.com/calendar/event?eid=MGk5dW9pbGlzcGVqNWFpM2ViM2s5ODlwa2Mgc
+ m9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by daily-impact-prioritizer. R
+ un date: 2026-09-16
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260916T173000-PrepCloseSALTdeploymentl@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260916T173000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:🎯 Prep: Close SALT deployment loop: verify impact and draft upda
+ te
+DESCRIPTION:Expected outcome Confirmed deployment impact documented plus 
+ short customer/internal status update ready to send. Why now SALT deploy
+  completed per eng thread\; customer needed the change this week—verify 
+ outcome and draft a concise status update. Source https://iterable.slack
+ .com/archives/CNTV3D1BN/p1788991686558489 Managed by daily-impact-priori
+ tizer. Run date: 2026-09-16
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260917T123000-PrepFinalizeRiaXEoptions@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260917T123000
+DTEND;TZID=America/New_York:20260917T131000
+SUMMARY:🎯 Prep: Finalize Ria/XE options memo: migration versus fresh pro
+ ject
+DESCRIPTION:Expected outcome Decision brief comparing migration vs fresh 
+ project with pricing/overages implications and open questions for the cu
+ stomer. Why now Active deal-team thread on User ID migration vs fresh pr
+ oject and threshold implications\; memo requested in Slack. Source https
+ ://iterable.slack.com/archives/C08AKAT97ND/p1788535118240819 Managed by 
+ daily-impact-prioritizer. Run date: 2026-09-16
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

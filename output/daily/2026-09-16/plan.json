@@ -1,0 +1,69 @@
+{
+  "timezone": "America/New_York",
+  "generatedAt": "2026-09-16T15:11:54.422Z",
+  "runDate": "2026-09-16",
+  "days": [
+    {
+      "date": "2026-09-16",
+      "blocks": [
+        {
+          "workItemId": "wawa-duplicate-automation",
+          "title": "🎯 Prep: Wawa duplicate automation: finalize call decisions and pilot asks",
+          "startLocal": "2026-09-16T14:30:00",
+          "endLocal": "2026-09-16T15:10:00",
+          "expectedOutcome": "One-page call sheet with agenda, discovery questions, pilot scope, and desired next steps from Melinda/Stephen.",
+          "sourceUrl": "https://app.glean.com/library/36d712c5bdc3458596b3e286f67d4a8b",
+          "rationale": "Customer call today on automating duplicate handling; prep brief exists—need three decisions (root cause, Smart Ingest positioning, pilot owners) locked before 1:30 PM ET."
+        },
+        {
+          "workItemId": "platform-audit-sync-prep",
+          "title": "🎯 Prep: Prepare Platform Audit Sync: define 3 outcomes and 3 questions",
+          "startLocal": "2026-09-16T09:00:00",
+          "endLocal": "2026-09-16T09:25:00",
+          "expectedOutcome": "Three desired outcomes and three questions written and ready to use in Michael / Robert - Platform Audit Sync.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=MDJxM2Q2ODFoZDI1MjZyYTlkdGV2cDhhbWcgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "Internal platform audit sync at noon ET; invite has little agenda detail—need a tight outcome list before the meeting."
+        },
+        {
+          "workItemId": "boll-branch-tmr",
+          "title": "🎯 Prep: Prepare Boll & Branch TMR: discovery outline for data flow and integrations",
+          "startLocal": "2026-09-16T17:00:00",
+          "endLocal": "2026-09-16T17:30:00",
+          "expectedOutcome": "One-page discovery outline with technical questions and gap checklist for the customer meeting.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=MGk5dW9pbGlzcGVqNWFpM2ViM2s5ODlwa2Mgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "External SA meeting today; TMR focus areas are journey structure, data/event flow, architecture, Shopify/Segment integrations, and gaps."
+        },
+        {
+          "workItemId": "salt-deployment-loop",
+          "title": "🎯 Prep: Close SALT deployment loop: verify impact and draft update",
+          "startLocal": "2026-09-16T17:30:00",
+          "endLocal": "2026-09-16T18:00:00",
+          "expectedOutcome": "Confirmed deployment impact documented plus short customer/internal status update ready to send.",
+          "sourceUrl": "https://iterable.slack.com/archives/CNTV3D1BN/p1788991686558489",
+          "rationale": "SALT deploy completed per eng thread; customer needed the change this week—verify outcome and draft a concise status update."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-09-17",
+      "blocks": [
+        {
+          "workItemId": "ria-xe-options-memo",
+          "title": "🎯 Prep: Finalize Ria/XE options memo: migration versus fresh project",
+          "startLocal": "2026-09-17T12:30:00",
+          "endLocal": "2026-09-17T13:10:00",
+          "expectedOutcome": "Decision brief comparing migration vs fresh project with pricing/overages implications and open questions for the customer.",
+          "sourceUrl": "https://iterable.slack.com/archives/C08AKAT97ND/p1788535118240819",
+          "rationale": "Active deal-team thread on User ID migration vs fresh project and threshold implications; memo requested in Slack."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-09-18",
+      "blocks": [],
+      "unassignedItemIds": []
+    }
+  ]
+}
