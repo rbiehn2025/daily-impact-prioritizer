@@ -6,8 +6,8 @@ Read `/config/default.json` before starting. Current delivery mode is **`ics_fal
 
 ## Goals (in order)
 
-1. Rank high-impact prep work from Glean (calendar + 14-day activity + ≤2 searches).
-2. Map work into open slots for **today through Friday** (America/New_York).
+1. Rank **meeting-driven** prep from Glean (calendar is primary; plus 14-day activity and ≤2 searches).
+2. Map each ranked item into **open slots around that day’s meetings** for **today through Friday** (America/New_York)—not a generic weekly task list.
 3. **Always** produce a dated **`.ics` file** under `output/daily/{runDate}/`.
 4. **Optionally** sync to Google Calendar only when `googleCalendarWrites` is `true` in config.
 
