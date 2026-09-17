@@ -15,7 +15,7 @@ If you were still on an Origin draft URL like `tmp-91a8fcb443a6e6fb`, that repo 
 1. **Dashboard → Integrations → GitHub** — grant access to `rbiehn2025/daily-impact-prioritizer`.
 2. **Automations → New automation**.
 3. **Repository:** `rbiehn2025/daily-impact-prioritizer`, branch **`main`**.
-4. **Schedule:** cron `0 9 * * 1-5`, timezone **America/New_York**.
+4. **Schedule:** weekday mornings, timezone **America/New_York** (e.g. `0 10 * * 1-5` for 10:00 AM; align with `schedule.defaultRunHourLocal` in [`config/default.json`](../config/default.json)).
 5. **Prompt:** [`../prompts/daily-automation.md`](../prompts/daily-automation.md).
 6. **MCP:** **Glean** (enable Google Calendar when write auth is approved).
 
@@ -61,5 +61,12 @@ In [`../config/default.json`](../config/default.json):
 
 ```bash
 npm install
-npm run daily -- --calendar /tmp/meetings.json --items /tmp/work-items.json
+npm run check   # optional
+npm run daily -- --calendar schemas/meetings.example.json --items schemas/work-items.example.json
 ```
+
+Production automation uses `/tmp/meetings.json` and `/tmp/work-items.json` after Glean (see prompt).
+
+## Push code or doc changes
+
+See [`../docs/PUSH_UPDATES.md`](../docs/PUSH_UPDATES.md).

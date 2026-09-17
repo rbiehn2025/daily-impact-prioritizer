@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Customer architecture review",
+    "url": "https://www.google.com/calendar/event?eid=example",
+    "eventStartTime": "2026-09-18 17:00:00 +00:00",
+    "eventEndTime": "2026-09-18 17:30:00 +00:00"
+  },
+  {
+    "title": "Home",
+    "url": "https://www.google.com/calendar/event?eid=example-home",
+    "eventStartTime": "2026-09-18 00:00:00 +00:00",
+    "eventEndTime": "2026-09-19 00:00:00 +00:00"
+  }
+]

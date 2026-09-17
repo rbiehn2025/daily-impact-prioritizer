@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
+    "check": "npm run build && npm test",
     "test": "vitest run",
     "plan": "tsx src/cli.ts plan",
     "format-events": "tsx src/cli.ts format-events",

@@ -14,8 +14,21 @@ Runs your **Daily Impact Prioritizer** workflow each weekday morning: pull calen
 | [`automation/SETUP.md`](automation/SETUP.md) | Schedule, MCP, and morning import steps. |
 | [`config/default.json`](config/default.json) | Timezone, slots, delivery mode, git commit flag. |
 | `npm run daily` | Plan + `google-events.json` + **`prep-blocks.ics`** in one command. |
+| [`docs/PUSH_UPDATES.md`](docs/PUSH_UPDATES.md) | How to push code and daily artifacts to GitHub. |
 
-Default: **weekdays 9:00 AM Eastern**, 14-day activity lookback.
+Default: **weekdays only**, working window **09:00–18:00 Eastern**, 14-day activity lookback, up to **5** ranked items and **4** prep blocks per day.
+
+## Repository layout
+
+```
+config/default.json          # planner + calendar delivery settings
+prompts/daily-automation.md  # scheduled agent workflow
+schemas/*.example.json       # JSON shapes for CLI inputs
+data/README.md               # how to run a local dry run
+src/                         # TypeScript planner + ICS export
+dist/                        # compiled JS (run `npm run build` after src edits)
+output/daily/YYYY-MM-DD/     # committed daily artifacts (ICS, plan, RUN.md)
+```
 
 ## Set up the daily automation (Cursor)
 
@@ -23,32 +36,40 @@ Default: **weekdays 9:00 AM Eastern**, 14-day activity lookback.
 
 Connect **Dashboard → Integrations → GitHub**, then **Automations → New automation** → **Single repository** → `rbiehn2025/daily-impact-prioritizer` → `main`.
 
-**If Automations will not let you attach a repo**, see [`automation/SETUP.md`](automation/SETUP.md). Summary:
+**If Automations will not let you attach a repo**, see [`automation/SETUP.md`](automation/SETUP.md).
 
 1. **Automations → New automation** on this repo, branch `main`.
-2. **Schedule:** `0 9 * * 1-5`, timezone `America/New_York`.
-3. **Prompt:** [`prompts/daily-automation.md`](prompts/daily-automation.md).
-4. Enable **Glean** MCP (Google Calendar optional until auth).
+2. **Schedule:** weekday mornings in `America/New_York` (e.g. cron `0 10 * * 1-5` for 10:00 AM local, or match `schedule.defaultRunHourLocal` in config).
+3. **Prompt:** paste or point at [`prompts/daily-automation.md`](prompts/daily-automation.md).
+4. Enable **Glean** MCP (`meeting_lookup`, `user_activity`, ≤2× `search`). Google Calendar optional until write auth.
 
-Each run commits `output/daily/{date}/` when `commitArtifactsToGit` is true so you can **pull the ICS** or grab it from the agent run.
+Each run commits `output/daily/{date}/` when `commitArtifactsToGit` is `true` so you can **pull the ICS** or grab it from the agent run.
 
 ## Manual dry run
 
 ```bash
 npm install
-npm run daily -- --calendar data/meetings.json --items data/work-items.json
+npm run check    # optional: build dist + run tests
+npm run daily -- --calendar schemas/meetings.example.json --items schemas/work-items.example.json
 # → output/daily/<runDate>/prep-blocks.ics
 ```
 
-Or step-by-step: `plan` → `format-events` → `export-ics` (see scripts in `package.json`).
+Or step-by-step: `plan` → `format-events` → `export-ics` (see `package.json` scripts).
 
-### `work-items.json` shape
+### Input JSON
 
-See [`schemas/work-items.example.json`](schemas/work-items.example.json).
+| File | Source | Schema |
+| --- | --- | --- |
+| Calendar | Glean `meeting_lookup` (`after=today`, `before=this_week`, paginate) | [`schemas/meetings.example.json`](schemas/meetings.example.json) |
+| Work items | Agent ranking from activity + search | [`schemas/work-items.example.json`](schemas/work-items.example.json) |
 
-### `meetings.json`
+Times use Glean’s format: `YYYY-MM-DD HH:mm:ss +00:00`. All-day working-location events (e.g. `Home`) are skipped when they match `calendar.skipTitlePatterns` in config.
 
-Glean `meeting_lookup` documents (`title`, `eventStartTime`, `eventEndTime`, `url`).
+## Morning import (ICS)
+
+Google Calendar → **Settings** → **Import & export** → **Import** → select `output/daily/<today>/prep-blocks.ics`.
+
+See also [`output/daily/README.md`](output/daily/README.md).
 
 ## Enable Google Calendar writes later
 
@@ -59,11 +80,21 @@ In [`config/default.json`](config/default.json):
 "googleCalendarWrites": true
 ```
 
+The automation prompt’s step 8 will create/delete managed events; ICS remains the backup.
+
 ## Customize
 
 - `workingHours`, `minBlockMinutes`, `meetingBufferMinutes`, `maxBlocksPerDay`
-- `eventTitlePrefix`, `managedMarker`
-- `commitArtifactsToGit`: set `false` if you do not want auto-commit/push from the agent
+- `eventTitlePrefix`, `managedMarker`, `skipTitlePatterns`
+- `commitArtifactsToGit`: set `false` if you do not want auto-commit/push of daily folders
+
+## Push updates to GitHub
+
+See **[`docs/PUSH_UPDATES.md`](docs/PUSH_UPDATES.md)**. Quick check before pushing code:
+
+```bash
+npm run check
+```
 
 ## Tests
 
