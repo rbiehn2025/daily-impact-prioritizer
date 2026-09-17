@@ -1,0 +1,52 @@
+[
+  {
+    "summary": "🎯 Prep: Redfin EBR onsite: summarize audit findings and latency talking points",
+    "description": "<b>Expected outcome</b><br>Bulleted audit highlights, 3 latency/journey risks, and suggested ENG ask for the onsite working session.<br><br><b>Why now</b><br>Internal brainstorm at 12:30 PM ET today; invite asks Robert to share account audit findings and ENG support for journey latency issues ahead of customer onsite.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=NzczZzJrZWVpbXVrY291cDF2M2p1a2l0ODggcm9iZXJ0LmJpZWhnQGl0ZXJhYmxlLmNvbQ'>https://www.google.com/calendar/event?eid=NzczZzJrZWVpbXVrY291cDF2M2p1a2l0ODggcm9iZXJ0LmJpZWhnQGl0ZXJhYmxlLmNvbQ</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-17</i>",
+    "start_datetime": "2026-09-17T09:30:00",
+    "end_datetime": "2026-09-17T10:00:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-17\",\"dip_work_item_id\":\"redfin-ebr-brainstorm-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Fall Release 301 Q&A: review pre-reading and submit technical questions",
+    "description": "<b>Expected outcome</b><br>Notes on 2–3 customer-relevant release areas plus 2 questions submitted via the invite form (or drafted if form already closed).<br><br><b>Why now</b><br>Live product Q&amp;A at 11:00 AM ET today; invite asks for pre-reading review and pre-submitted questions on Integrations Hub, Salesforce Sync, RCS, and related release features.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=MzJqY3NwZ3V1bjNoZnVhdTdvcDZ2bnFiZ2cgcm9iZXJ0LmJpZWhnQGl0ZXJhYmxlLmNvbQ'>https://www.google.com/calendar/event?eid=MzJqY3NwZ3V1bjNoZnVhdTdvcDZ2bnFiZ2cgcm9iZXJ0LmJpZWhnQGl0ZXJhYmxlLmNvbQ</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-17</i>",
+    "start_datetime": "2026-09-17T10:00:00",
+    "end_datetime": "2026-09-17T10:30:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-17\",\"dip_work_item_id\":\"fall-release-301-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Adweek EBR alignment: review deck technical sections and SA role",
+    "description": "<b>Expected outcome</b><br>Three talking points for previous technical discussions plus open questions to resolve with CS before the customer EBR.<br><br><b>Why now</b><br>Internal alignment at 3:30 PM ET today ahead of Sep 23 customer EBR; Robert edited the deck recently and is listed as presenting SA on the executive review.<br><br><b>Source</b><br><a href='https://docs.google.com/presentation/d/1cM51AlSsLWn4rXYQixcsakxUUHTCN44w7DRPD1Mbg2g'>https://docs.google.com/presentation/d/1cM51AlSsLWn4rXYQixcsakxUUHTCN44w7DRPD1Mbg2g</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-17</i>",
+    "start_datetime": "2026-09-17T13:00:00",
+    "end_datetime": "2026-09-17T13:30:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-17\",\"dip_work_item_id\":\"adweek-ebr-alignment-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Finalize Ria/XE options memo: migration versus fresh project",
+    "description": "<b>Expected outcome</b><br>Decision brief comparing migration vs fresh project with pricing/overages implications and open questions for the customer.<br><br><b>Why now</b><br>Active deal-team Slack thread on User ID migration vs fresh project and threshold implications; carried from prior daily plan with no completion signal in recent activity.<br><br><b>Source</b><br><a href='https://iterable.slack.com/archives/C08AKAT97ND/p1788535118240819'>https://iterable.slack.com/archives/C08AKAT97ND/p1788535118240819</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-17</i>",
+    "start_datetime": "2026-09-17T13:30:00",
+    "end_datetime": "2026-09-17T14:10:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-17\",\"dip_work_item_id\":\"ria-xe-options-memo\"}}"
+  },
+  {
+    "summary": "🎯 Prep: PayPal Honey architecture review: integration and data-flow checklist",
+    "description": "<b>Expected outcome</b><br>One-page checklist of integration points, open risks, and 3 discovery questions for the customer call.<br><br><b>Why now</b><br>External architecture review with PayPal Honey tomorrow (Sep 18); no fresh prep block scheduled after prior run placeholders.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=MjQ0NGx1cHJkbGxyNWV2cHNxaWluYWtwdXUgcm9iZXJ0LmJpZWhnQGl0ZXJhYmxlLmNvbQ'>https://www.google.com/calendar/event?eid=MjQ0NGx1cHJkbGxyNWV2cHNxaWluYWtwdXUgcm9iZXJ0LmJpZWhnQGl0ZXJhYmxlLmNvbQ</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-17</i>",
+    "start_datetime": "2026-09-18T14:15:00",
+    "end_datetime": "2026-09-18T14:45:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-17\",\"dip_work_item_id\":\"paypal-honey-architecture-prep\"}}"
+  }
+]

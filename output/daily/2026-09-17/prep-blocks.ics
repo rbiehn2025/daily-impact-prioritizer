@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//daily-impact-prioritizer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260917T093000-PrepRedfinEBRonsitesumma@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260917T093000
+DTEND;TZID=America/New_York:20260917T100000
+SUMMARY:🎯 Prep: Redfin EBR onsite: summarize audit findings and latency 
+ talking points
+DESCRIPTION:Expected outcome Bulleted audit highlights\, 3 latency/journe
+ y risks\, and suggested ENG ask for the onsite working session. Why now 
+ Internal brainstorm at 12:30 PM ET today\; invite asks Robert to share a
+ ccount audit findings and ENG support for journey latency issues ahead o
+ f customer onsite. Source https://www.google.com/calendar/event?eid=Nzcz
+ ZzJrZWVpbXVrY291cDF2M2p1a2l0ODggcm9iZXJ0LmJpZWhnQGl0ZXJhYmxlLmNvbQ Manag
+ ed by daily-impact-prioritizer. Run date: 2026-09-17
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260917T100000-PrepFallRelease301QArevi@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260917T100000
+DTEND;TZID=America/New_York:20260917T103000
+SUMMARY:🎯 Prep: Fall Release 301 Q&A: review pre-reading and submit tech
+ nical questions
+DESCRIPTION:Expected outcome Notes on 2–3 customer-relevant release areas
+  plus 2 questions submitted via the invite form (or drafted if form alre
+ ady closed). Why now Live product Q&amp\;A at 11:00 AM ET today\; invite
+  asks for pre-reading review and pre-submitted questions on Integrations
+  Hub\, Salesforce Sync\, RCS\, and related release features. Source http
+ s://www.google.com/calendar/event?eid=MzJqY3NwZ3V1bjNoZnVhdTdvcDZ2bnFiZ2
+ cgcm9iZXJ0LmJpZWhnQGl0ZXJhYmxlLmNvbQ Managed by daily-impact-prioritizer
+ . Run date: 2026-09-17
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260917T130000-PrepAdweekEBRalignmentre@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260917T130000
+DTEND;TZID=America/New_York:20260917T133000
+SUMMARY:🎯 Prep: Adweek EBR alignment: review deck technical sections and
+  SA role
+DESCRIPTION:Expected outcome Three talking points for previous technical 
+ discussions plus open questions to resolve with CS before the customer E
+ BR. Why now Internal alignment at 3:30 PM ET today ahead of Sep 23 custo
+ mer EBR\; Robert edited the deck recently and is listed as presenting SA
+  on the executive review. Source https://docs.google.com/presentation/d/
+ 1cM51AlSsLWn4rXYQixcsakxUUHTCN44w7DRPD1Mbg2g Managed by daily-impact-pri
+ oritizer. Run date: 2026-09-17
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260917T133000-PrepFinalizeRiaXEoptions@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260917T133000
+DTEND;TZID=America/New_York:20260917T141000
+SUMMARY:🎯 Prep: Finalize Ria/XE options memo: migration versus fresh pro
+ ject
+DESCRIPTION:Expected outcome Decision brief comparing migration vs fresh 
+ project with pricing/overages implications and open questions for the cu
+ stomer. Why now Active deal-team Slack thread on User ID migration vs fr
+ esh project and threshold implications\; carried from prior daily plan w
+ ith no completion signal in recent activity. Source https://iterable.sla
+ ck.com/archives/C08AKAT97ND/p1788535118240819 Managed by daily-impact-pr
+ ioritizer. Run date: 2026-09-17
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260918T141500-PrepPayPalHoneyarchitect@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260918T141500
+DTEND;TZID=America/New_York:20260918T144500
+SUMMARY:🎯 Prep: PayPal Honey architecture review: integration and data-f
+ low checklist
+DESCRIPTION:Expected outcome One-page checklist of integration points\, o
+ pen risks\, and 3 discovery questions for the customer call. Why now Ext
+ ernal architecture review with PayPal Honey tomorrow (Sep 18)\; no fresh
+  prep block scheduled after prior run placeholders. Source https://www.g
+ oogle.com/calendar/event?eid=MjQ0NGx1cHJkbGxyNWV2cHNxaWluYWtwdXUgcm9iZXJ
+ 0LmJpZWhnQGl0ZXJhYmxlLmNvbQ Managed by daily-impact-prioritizer. Run dat
+ e: 2026-09-17
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
