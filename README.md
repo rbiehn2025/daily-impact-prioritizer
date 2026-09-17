@@ -2,9 +2,20 @@
 
 **Repository:** [github.com/rbiehn2025/daily-impact-prioritizer](https://github.com/rbiehn2025/daily-impact-prioritizer)
 
-Runs your **Daily Impact Prioritizer** workflow each weekday morning: pull calendar and recent work from Glean, rank high-impact actions, map them into open slots for the rest of the week, and deliver **prep blocks** to your calendar.
+Runs **once each weekday morning**: read **your real calendar** (today through Friday), decide what prep matters for **those scheduled meetings**, and place **prep blocks only in open time** around those meetings—not a generic weekly to-do list.
 
-**Right now:** config uses **`ics_fallback`** (daily `.ics` under `output/daily/YYYY-MM-DD/`) while Google Calendar MCP write auth is pending. After approval, flip `googleCalendarWrites` to `true` in config for direct event creation (ICS stays as backup).
+Each run writes one folder, `output/daily/{runDate}/`, where `{runDate}` is **today** in `America/New_York`. Import that day’s `prep-blocks.ics` into Google Calendar.
+
+**Right now:** config uses **`ics_fallback`** (the `.ics` file is the delivery path) while Google Calendar MCP write auth is pending. After approval, flip `googleCalendarWrites` to `true` in config for direct event creation (ICS stays as backup).
+
+### How a weekday run works
+
+1. **Calendar (primary signal)** — Glean `meeting_lookup` from **today** through **end of this week**. Meetings, holds, and focus time are **busy**; customer and external meetings drive what gets ranked first.
+2. **Rank prep (3–5 items)** — Up to `ranking.maxWorkItems` (default **5**) prep tasks for **this run only**, using calendar + **14-day** Glean activity + at most **2** searches. Set `targetDate` on an item when prep is for a meeting on a specific day (usually **today**).
+3. **Schedule around meetings** — For **each calendar day** from today through Friday, the planner finds gaps in **09:00–18:00** Eastern (≥25 minutes, 10-minute buffer before meetings) and places at most **`maxBlocksPerDay` (4) prep blocks on that day**. If the day is full of meetings, fewer or no blocks land that day; leftover ranked items show as unassigned in `plan.json`.
+4. **Deliver** — `prep-blocks.ics` plus `plan.json`, `RUN.md`, and `google-events.json` under `output/daily/{runDate}/`.
+
+**Defaults (see [`config/default.json`](config/default.json)):** weekdays only (skip Sat/Sun); Eastern timezone; working window **09:00–18:00**; **14-day** activity lookback for ranking; **≤5** ranked prep items per run; **≤4** prep blocks **per calendar day** (only where free time exists).
 
 ## What runs where
 
@@ -15,8 +26,6 @@ Runs your **Daily Impact Prioritizer** workflow each weekday morning: pull calen
 | [`config/default.json`](config/default.json) | Timezone, slots, delivery mode, git commit flag. |
 | `npm run daily` | Plan + `google-events.json` + **`prep-blocks.ics`** in one command. |
 | [`docs/PUSH_UPDATES.md`](docs/PUSH_UPDATES.md) | How to push code and daily artifacts to GitHub. |
-
-Default: **weekdays only**, working window **09:00–18:00 Eastern**, 14-day activity lookback, up to **5** ranked items and **4** prep blocks per day.
 
 ## Repository layout
 
@@ -60,10 +69,10 @@ Or step-by-step: `plan` → `format-events` → `export-ics` (see `package.json`
 
 | File | Source | Schema |
 | --- | --- | --- |
-| Calendar | Glean `meeting_lookup` (`after=today`, `before=this_week`, paginate) | [`schemas/meetings.example.json`](schemas/meetings.example.json) |
-| Work items | Agent ranking from activity + search | [`schemas/work-items.example.json`](schemas/work-items.example.json) |
+| Calendar | Glean `meeting_lookup` (`after=today`, `before=this_week`, paginate) — **defines busy time and which meetings need prep** | [`schemas/meetings.example.json`](schemas/meetings.example.json) |
+| Work items | Agent-ranked prep for **this run**, tied to meetings when possible (`targetDate`) | [`schemas/work-items.example.json`](schemas/work-items.example.json) |
 
-Times use Glean’s format: `YYYY-MM-DD HH:mm:ss +00:00`. All-day working-location events (e.g. `Home`) are skipped when they match `calendar.skipTitlePatterns` in config.
+Times use Glean’s format: `YYYY-MM-DD HH:mm:ss +00:00`. All-day working-location events (e.g. `Home`) are skipped when they match `calendar.skipTitlePatterns` in config. The planner never invents meetings—it only schedules prep in **free slots** on days that appear in your meeting file.
 
 ## Morning import (ICS)
 
