@@ -1,6 +1,6 @@
 {
   "timezone": "America/New_York",
-  "generatedAt": "2026-09-17T13:16:56.752Z",
+  "generatedAt": "2026-09-17T14:02:13.209Z",
   "runDate": "2026-09-17",
   "days": [
     {
@@ -11,18 +11,18 @@
           "title": "🎯 Prep: Redfin EBR onsite: summarize audit findings and latency talking points",
           "startLocal": "2026-09-17T09:30:00",
           "endLocal": "2026-09-17T10:00:00",
-          "expectedOutcome": "Bulleted audit highlights, 3 latency/journey risks, and suggested ENG ask for the onsite working session.",
-          "sourceUrl": "https://www.google.com/calendar/event?eid=NzczZzJrZWVpbXVrY291cDF2M2p1a2l0ODggcm9iZXJ0LmJpZWhnQGl0ZXJhYmxlLmNvbQ",
-          "rationale": "Internal brainstorm at 12:30 PM ET today; invite asks Robert to share account audit findings and ENG support for journey latency issues ahead of customer onsite."
+          "expectedOutcome": "Bulleted audit highlights, 3 latency/journey risks, and suggested ENG ask for the onsite technical workshop.",
+          "sourceUrl": "https://docs.google.com/document/d/1uTEJYC1BXDENaPgr4M98ccJ1hSWh09j8zo80a_OBS-o",
+          "rationale": "Internal brainstorm at 12:30 PM ET today; invite asks Robert to share account audit findings and ENG support for journey latency ahead of the Oct 14 onsite working session."
         },
         {
           "workItemId": "fall-release-301-prep",
           "title": "🎯 Prep: Fall Release 301 Q&A: review pre-reading and submit technical questions",
           "startLocal": "2026-09-17T10:00:00",
           "endLocal": "2026-09-17T10:30:00",
-          "expectedOutcome": "Notes on 2–3 customer-relevant release areas plus 2 questions submitted via the invite form (or drafted if form already closed).",
-          "sourceUrl": "https://www.google.com/calendar/event?eid=MzJqY3NwZ3V1bjNoZnVhdTdvcDZ2bnFiZ2cgcm9iZXJ0LmJpZWhnQGl0ZXJhYmxlLmNvbQ",
-          "rationale": "Live product Q&A at 11:00 AM ET today; invite asks for pre-reading review and pre-submitted questions on Integrations Hub, Salesforce Sync, RCS, and related release features."
+          "expectedOutcome": "Notes on 2–3 customer-relevant release areas plus 2 questions submitted via the invite form (or drafted if already submitted).",
+          "sourceUrl": "https://docs.google.com/document/d/1Co8dWxPXVvdotc1KEYp-vP-F-a1SE7zoG1J99hxSw6I/edit?tab=t.0",
+          "rationale": "Live product Q&A at 11:00 AM ET today; invite requests pre-reading on Fall Release (Sep 24) features and pre-submitted technical questions."
         },
         {
           "workItemId": "adweek-ebr-alignment-prep",
@@ -31,16 +31,7 @@
           "endLocal": "2026-09-17T13:30:00",
           "expectedOutcome": "Three talking points for previous technical discussions plus open questions to resolve with CS before the customer EBR.",
           "sourceUrl": "https://docs.google.com/presentation/d/1cM51AlSsLWn4rXYQixcsakxUUHTCN44w7DRPD1Mbg2g",
-          "rationale": "Internal alignment at 3:30 PM ET today ahead of Sep 23 customer EBR; Robert edited the deck recently and is listed as presenting SA on the executive review."
-        },
-        {
-          "workItemId": "ria-xe-options-memo",
-          "title": "🎯 Prep: Finalize Ria/XE options memo: migration versus fresh project",
-          "startLocal": "2026-09-17T13:30:00",
-          "endLocal": "2026-09-17T14:10:00",
-          "expectedOutcome": "Decision brief comparing migration vs fresh project with pricing/overages implications and open questions for the customer.",
-          "sourceUrl": "https://iterable.slack.com/archives/C08AKAT97ND/p1788535118240819",
-          "rationale": "Active deal-team Slack thread on User ID migration vs fresh project and threshold implications; carried from prior daily plan with no completion signal in recent activity."
+          "rationale": "Internal alignment at 3:30 PM ET today ahead of Sep 23 customer EBR; Robert is listed on the executive deck and recently edited presentation content."
         }
       ],
       "unassignedItemIds": []
@@ -55,7 +46,16 @@
           "endLocal": "2026-09-18T14:45:00",
           "expectedOutcome": "One-page checklist of integration points, open risks, and 3 discovery questions for the customer call.",
           "sourceUrl": "https://www.google.com/calendar/event?eid=MjQ0NGx1cHJkbGxyNWV2cHNxaWluYWtwdXUgcm9iZXJ0LmJpZWhnQGl0ZXJhYmxlLmNvbQ",
-          "rationale": "External architecture review with PayPal Honey tomorrow (Sep 18); no fresh prep block scheduled after prior run placeholders."
+          "rationale": "External architecture review with PayPal Honey on Sep 18; customer attendee confirmed on invite—need integration points and discovery questions ready."
+        },
+        {
+          "workItemId": "g2-sa-handoff-prep",
+          "title": "🎯 Prep: G2 SA handoff: review deck and open follow-ups",
+          "startLocal": "2026-09-18T14:45:00",
+          "endLocal": "2026-09-18T15:15:00",
+          "expectedOutcome": "Bulleted handoff notes: decisions made, open customer threads, and next actions to confirm in the sync.",
+          "sourceUrl": "https://docs.google.com/presentation/d/1CRKj9eUvn5Z0QZDau0A2k53k2El_6at7ThthsKChZc8/edit",
+          "rationale": "Internal G2 sync Sep 18 as Manan transitions to sabbatical; overview deck and shared customer folder linked in calendar invite."
         }
       ],
       "unassignedItemIds": []

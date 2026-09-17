@@ -1,6 +1,6 @@
 # Daily run 2026-09-17
 
-- **Generated:** 2026-09-17T13:16:56.752Z
+- **Generated:** 2026-09-17T14:02:13.209Z
 - **Timezone:** America/New_York
 - **Delivery mode:** ics_fallback
 - **Prep blocks:** 5
@@ -15,5 +15,5 @@ Google Calendar → Settings → Import & export → Import → select `prep-blo
 | 2026-09-17T09:30:00 | 🎯 Prep: Redfin EBR onsite: summarize audit findings and latency talking points |
 | 2026-09-17T10:00:00 | 🎯 Prep: Fall Release 301 Q&A: review pre-reading and submit technical questions |
 | 2026-09-17T13:00:00 | 🎯 Prep: Adweek EBR alignment: review deck technical sections and SA role |
-| 2026-09-17T13:30:00 | 🎯 Prep: Finalize Ria/XE options memo: migration versus fresh project |
 | 2026-09-18T14:15:00 | 🎯 Prep: PayPal Honey architecture review: integration and data-flow checklist |
+| 2026-09-18T14:45:00 | 🎯 Prep: G2 SA handoff: review deck and open follow-ups |
