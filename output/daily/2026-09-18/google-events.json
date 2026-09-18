@@ -1,0 +1,32 @@
+[
+  {
+    "summary": "🎯 Prep: PayPal Honey architecture review: integration and data-flow checklist",
+    "description": "<b>Expected outcome</b><br>One-page checklist of integration points, open risks, and 3 discovery questions for the customer call.<br><br><b>Why now</b><br>External architecture review with PayPal Honey today at 1:00 PM ET; customer attendee confirmed on invite. Slack notes renewal discussions are active—technical credibility on integration and data flow matters for the deal team.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=MjQ0NGx1cHJkbGxyNWV2cHNxaWluYWtwdXUgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ'>https://www.google.com/calendar/event?eid=MjQ0NGx1cHJkbGxyNWV2cHNxaWluYWtwdXUgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-18</i>",
+    "start_datetime": "2026-09-18T14:15:00",
+    "end_datetime": "2026-09-18T14:45:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-18\",\"dip_work_item_id\":\"paypal-honey-architecture-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: G2 SA handoff: review deck and open follow-ups",
+    "description": "<b>Expected outcome</b><br>Bulleted handoff notes: decisions made, open customer threads, and next actions to confirm in the sync.<br><br><b>Why now</b><br>Internal G2 sync at 12:00 PM ET today as Manan transitions to sabbatical; overview deck and shared customer folder linked in calendar invite.<br><br><b>Source</b><br><a href='https://docs.google.com/presentation/d/1CRKj9eUvn5Z0QZDau0A2k53k2El_6at7ThthsKChZc8/edit'>https://docs.google.com/presentation/d/1CRKj9eUvn5Z0QZDau0A2k53k2El_6at7ThthsKChZc8/edit</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-18</i>",
+    "start_datetime": "2026-09-18T14:45:00",
+    "end_datetime": "2026-09-18T15:15:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-18\",\"dip_work_item_id\":\"g2-sa-handoff-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: VE Salesforce enablement: sandbox pet-owner setup outline",
+    "description": "<b>Expected outcome</b><br>Short list of questions on Salesforce objects tied to Iterable opportunities plus one sandbox goal for the pet-owner exercise.<br><br><b>Why now</b><br>Hands-on Salesforce enablement at 10:00 AM ET today; invite targets SAs new to custom objects and opportunity data—skim Iterable–Salesforce touchpoints so the session is productive.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=NWhpZWdxYjhpbTFmc29jZmk1MGVlbjA1NmIgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ'>https://www.google.com/calendar/event?eid=NWhpZWdxYjhpbTFmc29jZmk1MGVlbjA1NmIgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-18</i>",
+    "start_datetime": "2026-09-18T17:15:00",
+    "end_datetime": "2026-09-18T17:40:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-18\",\"dip_work_item_id\":\"ve-salesforce-enablement-prep\"}}"
+  }
+]

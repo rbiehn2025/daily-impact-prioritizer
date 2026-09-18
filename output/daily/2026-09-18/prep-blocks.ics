@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//daily-impact-prioritizer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260918T141500-PrepPayPalHoneyarchitect@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260918T141500
+DTEND;TZID=America/New_York:20260918T144500
+SUMMARY:🎯 Prep: PayPal Honey architecture review: integration and data-f
+ low checklist
+DESCRIPTION:Expected outcome One-page checklist of integration points\, o
+ pen risks\, and 3 discovery questions for the customer call. Why now Ext
+ ernal architecture review with PayPal Honey today at 1:00 PM ET\; custom
+ er attendee confirmed on invite. Slack notes renewal discussions are act
+ ive—technical credibility on integration and data flow matters for the d
+ eal team. Source https://www.google.com/calendar/event?eid=MjQ0NGx1cHJkb
+ GxyNWV2cHNxaWluYWtwdXUgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by dai
+ ly-impact-prioritizer. Run date: 2026-09-18
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260918T144500-PrepG2SAhandoffreviewdec@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260918T144500
+DTEND;TZID=America/New_York:20260918T151500
+SUMMARY:🎯 Prep: G2 SA handoff: review deck and open follow-ups
+DESCRIPTION:Expected outcome Bulleted handoff notes: decisions made\, ope
+ n customer threads\, and next actions to confirm in the sync. Why now In
+ ternal G2 sync at 12:00 PM ET today as Manan transitions to sabbatical\;
+  overview deck and shared customer folder linked in calendar invite. Sou
+ rce https://docs.google.com/presentation/d/1CRKj9eUvn5Z0QZDau0A2k53k2El_
+ 6at7ThthsKChZc8/edit Managed by daily-impact-prioritizer. Run date: 2026
+ -09-18
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260918T171500-PrepVESalesforceenableme@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260918T171500
+DTEND;TZID=America/New_York:20260918T174000
+SUMMARY:🎯 Prep: VE Salesforce enablement: sandbox pet-owner setup outlin
+ e
+DESCRIPTION:Expected outcome Short list of questions on Salesforce object
+ s tied to Iterable opportunities plus one sandbox goal for the pet-owner
+  exercise. Why now Hands-on Salesforce enablement at 10:00 AM ET today\;
+  invite targets SAs new to custom objects and opportunity data—skim Iter
+ able–Salesforce touchpoints so the session is productive. Source https:/
+ /www.google.com/calendar/event?eid=NWhpZWdxYjhpbTFmc29jZmk1MGVlbjA1NmIgc
+ m9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by daily-impact-prioritizer. R
+ un date: 2026-09-18
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
