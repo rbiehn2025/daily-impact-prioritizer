@@ -1,0 +1,52 @@
+[
+  {
+    "summary": "🎯 Prep: Guaranteed Rate push deep links: finalize call architecture and test plan",
+    "description": "<b>Expected outcome</b><br>One-page call sheet: three-layer model, 5 discovery questions, and agreed live-test steps using their sample Kochava link.<br><br><b>Why now</b><br>Customer SA discussion today at 1:30 PM ET; recent prep artifact covers Kochava/Iterable ownership, push vs email behavior, and open questions on their smart-link schema.<br><br><b>Source</b><br><a href='https://app.glean.com/library/0cc07af03fb645b1858b6de5e6874d95'>https://app.glean.com/library/0cc07af03fb645b1858b6de5e6874d95</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-21</i>",
+    "start_datetime": "2026-09-21T09:00:00",
+    "end_datetime": "2026-09-21T09:30:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-21\",\"dip_work_item_id\":\"guaranteed-rate-deep-links-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Adweek deck: technical sections and SA talking points for Sam sync",
+    "description": "<b>Expected outcome</b><br>Bulleted SA notes on Catalog, MCP, and journey slides plus any open questions to close before the onsite.<br><br><b>Why now</b><br>Robert / Sam sync at 3:30 PM ET today to finalize the deck ahead of NYC onsite; EBR deck was updated last week and Robert is on the customer review.<br><br><b>Source</b><br><a href='https://docs.google.com/presentation/d/1cM51AlSsLWn4rXYQixcsakxUUHTCN44w7DRPD1Mbg2g'>https://docs.google.com/presentation/d/1cM51AlSsLWn4rXYQixcsakxUUHTCN44w7DRPD1Mbg2g</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-21</i>",
+    "start_datetime": "2026-09-21T09:30:00",
+    "end_datetime": "2026-09-21T09:55:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-21\",\"dip_work_item_id\":\"adweek-deck-sam-sync-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Account review with Chelsea: portfolio risks and customer follow-ups",
+    "description": "<b>Expected outcome</b><br>Short list of active accounts, blockers, and 2–3 asks for CS coverage while traveling Tue–Thu.<br><br><b>Why now</b><br>Weekly Chelsea / Robert account review at 4:00 PM ET today; activity shows ongoing calendar coordination on key accounts.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=NWkyNXFpOWhlMmRqdTZkaG8zc2Y0MnBubXFfMjAyNjA5MjFUMjAwMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t'>https://www.google.com/calendar/event?eid=NWkyNXFpOWhlMmRqdTZkaG8zc2Y0MnBubXFfMjAyNjA5MjFUMjAwMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-21</i>",
+    "start_datetime": "2026-09-21T09:55:00",
+    "end_datetime": "2026-09-21T10:20:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-21\",\"dip_work_item_id\":\"chelsea-account-review-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: RGG weekly check-in: ticket themes and deliverability talking points",
+    "description": "<b>Expected outcome</b><br>Bulleted wins, deliverability summary, and open Iterable support threads to review on the call.<br><br><b>Why now</b><br>Iterable + RGG weekly check-in Tue 1:00 PM ET during travel day; invite agenda includes deliverability review and open support issues.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=MG1xbWQzOGg2OTBzMWttN2N1a2ljNm8wNWVfMjAyNjA5MjJUMTcwMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t'>https://www.google.com/calendar/event?eid=MG1xbWQzOGg2OTBzMWttN2N1a2ljNm8wNWVfMjAyNjA5MjJUMTcwMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-21</i>",
+    "start_datetime": "2026-09-22T09:00:00",
+    "end_datetime": "2026-09-22T09:25:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-21\",\"dip_work_item_id\":\"rgg-weekly-checkin-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Adweek onsite EBR: rehearse technical narrative and deliverability Q&A",
+    "description": "<b>Expected outcome</b><br>Timed run-through notes for technical sections plus answers drafted for deliverability and catalog implementation questions.<br><br><b>Why now</b><br>Customer onsite business review Wed 11:00 AM–1:00 PM ET in NYC; deck covers catalog, journeys, MCP, and deliverability questions for publishers.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=MmEyM3FqcHJmcTRvbjcwODJodXRrc21yYjIgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ'>https://www.google.com/calendar/event?eid=MmEyM3FqcHJmcTRvbjcwODJodXRrc21yYjIgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-21</i>",
+    "start_datetime": "2026-09-23T09:00:00",
+    "end_datetime": "2026-09-23T09:45:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-21\",\"dip_work_item_id\":\"adweek-onsite-ebr-prep\"}}"
+  }
+]

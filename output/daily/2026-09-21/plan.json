@@ -1,0 +1,80 @@
+{
+  "timezone": "America/New_York",
+  "generatedAt": "2026-09-21T10:10:24.427Z",
+  "runDate": "2026-09-21",
+  "days": [
+    {
+      "date": "2026-09-21",
+      "blocks": [
+        {
+          "workItemId": "guaranteed-rate-deep-links-prep",
+          "title": "🎯 Prep: Guaranteed Rate push deep links: finalize call architecture and test plan",
+          "startLocal": "2026-09-21T09:00:00",
+          "endLocal": "2026-09-21T09:30:00",
+          "expectedOutcome": "One-page call sheet: three-layer model, 5 discovery questions, and agreed live-test steps using their sample Kochava link.",
+          "sourceUrl": "https://app.glean.com/library/0cc07af03fb645b1858b6de5e6874d95",
+          "rationale": "Customer SA discussion today at 1:30 PM ET; recent prep artifact covers Kochava/Iterable ownership, push vs email behavior, and open questions on their smart-link schema."
+        },
+        {
+          "workItemId": "adweek-deck-sam-sync-prep",
+          "title": "🎯 Prep: Adweek deck: technical sections and SA talking points for Sam sync",
+          "startLocal": "2026-09-21T09:30:00",
+          "endLocal": "2026-09-21T09:55:00",
+          "expectedOutcome": "Bulleted SA notes on Catalog, MCP, and journey slides plus any open questions to close before the onsite.",
+          "sourceUrl": "https://docs.google.com/presentation/d/1cM51AlSsLWn4rXYQixcsakxUUHTCN44w7DRPD1Mbg2g",
+          "rationale": "Robert / Sam sync at 3:30 PM ET today to finalize the deck ahead of NYC onsite; EBR deck was updated last week and Robert is on the customer review."
+        },
+        {
+          "workItemId": "chelsea-account-review-prep",
+          "title": "🎯 Prep: Account review with Chelsea: portfolio risks and customer follow-ups",
+          "startLocal": "2026-09-21T09:55:00",
+          "endLocal": "2026-09-21T10:20:00",
+          "expectedOutcome": "Short list of active accounts, blockers, and 2–3 asks for CS coverage while traveling Tue–Thu.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=NWkyNXFpOWhlMmRqdTZkaG8zc2Y0MnBubXFfMjAyNjA5MjFUMjAwMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t",
+          "rationale": "Weekly Chelsea / Robert account review at 4:00 PM ET today; activity shows ongoing calendar coordination on key accounts."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-09-22",
+      "blocks": [
+        {
+          "workItemId": "rgg-weekly-checkin-prep",
+          "title": "🎯 Prep: RGG weekly check-in: ticket themes and deliverability talking points",
+          "startLocal": "2026-09-22T09:00:00",
+          "endLocal": "2026-09-22T09:25:00",
+          "expectedOutcome": "Bulleted wins, deliverability summary, and open Iterable support threads to review on the call.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=MG1xbWQzOGg2OTBzMWttN2N1a2ljNm8wNWVfMjAyNjA5MjJUMTcwMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t",
+          "rationale": "Iterable + RGG weekly check-in Tue 1:00 PM ET during travel day; invite agenda includes deliverability review and open support issues."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-09-23",
+      "blocks": [
+        {
+          "workItemId": "adweek-onsite-ebr-prep",
+          "title": "🎯 Prep: Adweek onsite EBR: rehearse technical narrative and deliverability Q&A",
+          "startLocal": "2026-09-23T09:00:00",
+          "endLocal": "2026-09-23T09:45:00",
+          "expectedOutcome": "Timed run-through notes for technical sections plus answers drafted for deliverability and catalog implementation questions.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=MmEyM3FqcHJmcTRvbjcwODJodXRrc21yYjIgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "Customer onsite business review Wed 11:00 AM–1:00 PM ET in NYC; deck covers catalog, journeys, MCP, and deliverability questions for publishers."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-09-24",
+      "blocks": [],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-09-25",
+      "blocks": [],
+      "unassignedItemIds": []
+    }
+  ]
+}

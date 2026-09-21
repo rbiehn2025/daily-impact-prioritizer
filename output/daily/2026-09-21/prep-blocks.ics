@@ -1,0 +1,86 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//daily-impact-prioritizer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260921T090000-PrepGuaranteedRatepushde@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260921T090000
+DTEND;TZID=America/New_York:20260921T093000
+SUMMARY:🎯 Prep: Guaranteed Rate push deep links: finalize call architect
+ ure and test plan
+DESCRIPTION:Expected outcome One-page call sheet: three-layer model\, 5 d
+ iscovery questions\, and agreed live-test steps using their sample Kocha
+ va link. Why now Customer SA discussion today at 1:30 PM ET\; recent pre
+ p artifact covers Kochava/Iterable ownership\, push vs email behavior\, 
+ and open questions on their smart-link schema. Source https://app.glean.
+ com/library/0cc07af03fb645b1858b6de5e6874d95 Managed by daily-impact-pri
+ oritizer. Run date: 2026-09-21
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260921T093000-PrepAdweekdecktechnicals@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260921T093000
+DTEND;TZID=America/New_York:20260921T095500
+SUMMARY:🎯 Prep: Adweek deck: technical sections and SA talking points fo
+ r Sam sync
+DESCRIPTION:Expected outcome Bulleted SA notes on Catalog\, MCP\, and jou
+ rney slides plus any open questions to close before the onsite. Why now 
+ Robert / Sam sync at 3:30 PM ET today to finalize the deck ahead of NYC 
+ onsite\; EBR deck was updated last week and Robert is on the customer re
+ view. Source https://docs.google.com/presentation/d/1cM51AlSsLWn4rXYQixc
+ sakxUUHTCN44w7DRPD1Mbg2g Managed by daily-impact-prioritizer. Run date: 
+ 2026-09-21
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260921T095500-PrepAccountreviewwithChe@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260921T095500
+DTEND;TZID=America/New_York:20260921T102000
+SUMMARY:🎯 Prep: Account review with Chelsea: portfolio risks and custome
+ r follow-ups
+DESCRIPTION:Expected outcome Short list of active accounts\, blockers\, a
+ nd 2–3 asks for CS coverage while traveling Tue–Thu. Why now Weekly Chel
+ sea / Robert account review at 4:00 PM ET today\; activity shows ongoing
+  calendar coordination on key accounts. Source https://www.google.com/ca
+ lendar/event?eid=NWkyNXFpOWhlMmRqdTZkaG8zc2Y0MnBubXFfMjAyNjA5MjFUMjAwMDA
+ wWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t Managed by daily-impact-prioritize
+ r. Run date: 2026-09-21
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260922T090000-PrepRGGweeklycheckintick@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260922T090000
+DTEND;TZID=America/New_York:20260922T092500
+SUMMARY:🎯 Prep: RGG weekly check-in: ticket themes and deliverability ta
+ lking points
+DESCRIPTION:Expected outcome Bulleted wins\, deliverability summary\, and
+  open Iterable support threads to review on the call. Why now Iterable +
+  RGG weekly check-in Tue 1:00 PM ET during travel day\; invite agenda in
+ cludes deliverability review and open support issues. Source https://www
+ .google.com/calendar/event?eid=MG1xbWQzOGg2OTBzMWttN2N1a2ljNm8wNWVfMjAyN
+ jA5MjJUMTcwMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t Managed by daily-imp
+ act-prioritizer. Run date: 2026-09-21
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260923T090000-PrepAdweekonsiteEBRrehea@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260923T090000
+DTEND;TZID=America/New_York:20260923T094500
+SUMMARY:🎯 Prep: Adweek onsite EBR: rehearse technical narrative and deli
+ verability Q&A
+DESCRIPTION:Expected outcome Timed run-through notes for technical sectio
+ ns plus answers drafted for deliverability and catalog implementation qu
+ estions. Why now Customer onsite business review Wed 11:00 AM–1:00 PM ET
+  in NYC\; deck covers catalog\, journeys\, MCP\, and deliverability ques
+ tions for publishers. Source https://www.google.com/calendar/event?eid=M
+ mEyM3FqcHJmcTRvbjcwODJodXRrc21yYjIgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Ma
+ naged by daily-impact-prioritizer. Run date: 2026-09-21
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
