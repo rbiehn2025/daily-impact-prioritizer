@@ -4,7 +4,7 @@
 
 Runs your **Daily Impact Prioritizer** workflow each weekday morning: pull calendar and recent work from Glean, rank high-impact actions, map them into open slots for the rest of the week, and deliver **prep blocks** to your calendar.
 
-**Right now:** config uses **`ics_fallback`** (daily `.ics` under `output/daily/YYYY-MM-DD/`) while Google Calendar MCP write auth is pending. After approval, flip `googleCalendarWrites` to `true` in config for direct event creation (ICS stays as backup).
+**Right now:** config uses **`both`** delivery — Glean MCP Calendar Actions create events on Google Calendar, and each run still writes an `.ics` under `output/daily/YYYY-MM-DD/` as backup.
 
 ## What runs where
 
@@ -41,7 +41,7 @@ Connect **Dashboard → Integrations → GitHub**, then **Automations → New au
 1. **Automations → New automation** on this repo, branch `main`.
 2. **Schedule:** weekday mornings in `America/New_York` (e.g. cron `0 10 * * 1-5` for 10:00 AM local, or match `schedule.defaultRunHourLocal` in config).
 3. **Prompt:** paste or point at [`prompts/daily-automation.md`](prompts/daily-automation.md).
-4. Enable **Glean** MCP (`meeting_lookup`, `user_activity`, ≤2× `search`). Google Calendar optional until write auth.
+4. Enable **Glean** MCP (`meeting_lookup`, `user_activity`, ≤2× `search`, plus `Google_Calendar_Actions_GOOGLECALENDAR_CREATE_` / `_DELETE_` for writes). Do **not** rely on the standalone `Google-calendar` MCP while it is unauthenticated.
 
 Each run commits `output/daily/{date}/` when `commitArtifactsToGit` is `true` so you can **pull the ICS** or grab it from the agent run.
 
@@ -71,16 +71,17 @@ Google Calendar → **Settings** → **Import & export** → **Import** → sele
 
 See also [`output/daily/README.md`](output/daily/README.md).
 
-## Enable Google Calendar writes later
+## Calendar delivery
 
 In [`config/default.json`](config/default.json):
 
 ```json
 "delivery": "both",
-"googleCalendarWrites": true
+"googleCalendarWrites": true,
+"writeVia": "glean"
 ```
 
-The automation prompt’s step 8 will create/delete managed events; ICS remains the backup.
+The automation prompt’s step 8 creates/deletes managed events via **Glean** Calendar Actions; ICS remains the backup. Set `googleCalendarWrites` to `false` for ICS-only.
 
 ## Customize
 

@@ -20,8 +20,9 @@
     "visibility": "private",
     "createMeetingRoom": false,
     "managedMarker": "daily-impact-prioritizer",
-    "delivery": "ics_fallback",
-    "googleCalendarWrites": false,
+    "delivery": "both",
+    "googleCalendarWrites": true,
+    "writeVia": "glean",
     "dailyOutputBaseDir": "output/daily",
     "commitArtifactsToGit": true,
     "skipTitlePatterns": [

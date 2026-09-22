@@ -17,9 +17,9 @@ If you were still on an Origin draft URL like `tmp-91a8fcb443a6e6fb`, that repo 
 3. **Repository:** `rbiehn2025/daily-impact-prioritizer`, branch **`main`**.
 4. **Schedule:** weekday mornings, timezone **America/New_York** (e.g. `0 10 * * 1-5` for 10:00 AM; align with `schedule.defaultRunHourLocal` in [`config/default.json`](../config/default.json)).
 5. **Prompt:** [`../prompts/daily-automation.md`](../prompts/daily-automation.md).
-6. **MCP:** **Glean** (enable Google Calendar when write auth is approved).
+6. **MCP:** **Glean** (required). Calendar **writes** use Glean tools `Google_Calendar_Actions_GOOGLECALENDAR_CREATE_` / `_DELETE_` — not the standalone Google Calendar MCP.
 
-While `googleCalendarWrites` is `false` in config, each run writes **`output/daily/YYYY-MM-DD/prep-blocks.ics`** and can commit/push to `main` when `commitArtifactsToGit` is true.
+With `googleCalendarWrites: true` and `writeVia: "glean"` in config, each run creates events on Google Calendar **and** writes **`output/daily/YYYY-MM-DD/prep-blocks.ics`** as backup (commits/pushes when `commitArtifactsToGit` is true).
 
 ---
 
@@ -48,13 +48,23 @@ If the GitHub repo was initialized with a README, run `git pull github main --re
 
 ---
 
-## After Google Calendar MCP auth
+## Calendar delivery (Glean writes + ICS backup)
 
 In [`../config/default.json`](../config/default.json):
 
 ```json
 "delivery": "both",
-"googleCalendarWrites": true
+"googleCalendarWrites": true,
+"writeVia": "glean"
+```
+
+Scheduled agents call **Glean** `Google_Calendar_Actions_*` tools. The standalone `Google-calendar` MCP is optional and may still need separate auth.
+
+To force ICS-only temporarily:
+
+```json
+"delivery": "ics_fallback",
+"googleCalendarWrites": false
 ```
 
 ## Manual test (with repo)

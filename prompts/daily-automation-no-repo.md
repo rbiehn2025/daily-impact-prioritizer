@@ -48,9 +48,9 @@ Emit a **single fenced code block** labeled `prep-blocks.ics` containing a valid
 
 Tell Robert: save as `prep-blocks-YYYY-MM-DD.ics` → Google Calendar → Settings → Import & export → Import.
 
-### C. Google Calendar API
+### C. Google Calendar via Glean (optional)
 
-Do **not** call Google Calendar create/delete unless the user has confirmed MCP write auth. ICS is the delivery path.
+If Glean Calendar Actions are available in this automation, after emitting the ICS you may also create events with `Google_Calendar_Actions_GOOGLECALENDAR_CREATE_` (namespace `Glean_default`, `visibility`: private, `create_meeting_room`: false, `send_updates`: none). Do **not** use the standalone `Google-calendar` MCP. If create fails, ICS remains the delivery path — say so clearly.
 
 ## Guardrails
 

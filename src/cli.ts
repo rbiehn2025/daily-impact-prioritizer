@@ -123,6 +123,7 @@ if (cmd === "plan") {
       blockCount,
       delivery: config.calendar.delivery ?? "ics_fallback",
       googleCalendarWrites: config.calendar.googleCalendarWrites ?? false,
+      writeVia: config.calendar.writeVia ?? "glean",
       artifacts: paths,
     }),
   );

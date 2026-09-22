@@ -10,6 +10,6 @@ output/daily/YYYY-MM-DD/
   RUN.md             ← human-readable summary
 ```
 
-While `googleCalendarWrites` is `false` in config, the ICS file is the primary delivery mechanism.
+With `googleCalendarWrites: true` and `writeVia: "glean"`, the automation also creates events via Glean Calendar Actions; the ICS file remains the backup import path.
 
 Old one-off test export: [`live-pass-2026-09-16.ics`](live-pass-2026-09-16.ics).

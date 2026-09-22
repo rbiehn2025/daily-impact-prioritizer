@@ -23,6 +23,8 @@ export interface PlannerConfig {
     /** ics_fallback: always write ICS; try Google only if googleCalendarWrites is true */
     delivery?: "ics_fallback" | "google_calendar" | "both";
     googleCalendarWrites?: boolean;
+    /** How to write events: glean = Glean MCP Google_Calendar_Actions_* (not standalone Google-calendar MCP) */
+    writeVia?: "glean" | "google_calendar_mcp";
     dailyOutputBaseDir?: string;
     commitArtifactsToGit?: boolean;
   };
