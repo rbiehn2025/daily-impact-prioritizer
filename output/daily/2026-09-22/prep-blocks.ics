@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//daily-impact-prioritizer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260922T090000-PrepRGGweeklycheckintick@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260922T090000
+DTEND;TZID=America/New_York:20260922T092500
+SUMMARY:🎯 Prep: RGG weekly check-in: ticket themes and deliverability ta
+ lking points
+DESCRIPTION:Expected outcome Bulleted wins\, deliverability summary\, and
+  open Iterable support threads to review on the call. Why now Iterable +
+  RGG weekly check-in today at 1:00 PM ET during travel\; invite agenda i
+ ncludes deliverability review\, wins\, and open support issues. Source h
+ ttps://www.google.com/calendar/event?eid=MG1xbWQzOGg2OTBzMWttN2N1a2ljNm8
+ wNWVfMjAyNjA5MjJUMTcwMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t Managed by
+  daily-impact-prioritizer. Run date: 2026-09-22
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260924T170000-PrepPayPalHoneybiweeklyc@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260924T170000
+DTEND;TZID=America/New_York:20260924T172500
+SUMMARY:🎯 Prep: PayPal Honey bi-weekly connect: deliverability and integ
+ ration checklist
+DESCRIPTION:Expected outcome Short wins/deliverability summary and any op
+ en SA architecture threads to raise on the connect. Why now Iterable + P
+ ayPal Honey bi-weekly connect Thu 4:00 PM ET\; standing agenda covers de
+ liverability review and open support tickets per Chelsea’s template. Sou
+ rce https://www.google.com/calendar/event?eid=M2o4M3E4bmE5aWx0OGJ0bTQ4am
+ ljODhxbWdfMjAyNjA5MjRUMjAwMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t Manag
+ ed by daily-impact-prioritizer. Run date: 2026-09-22
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260925T100000-PrepLifeLineScreeningaba@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260925T100000
+DTEND;TZID=America/New_York:20260925T103000
+SUMMARY:🎯 Prep: Life Line Screening: abandon-cart prep for internal sync
+DESCRIPTION:Expected outcome Outline of abandon-cart flow questions\, Ite
+ rable integration options\, and SA recommendations to align with Kelsey 
+ before the customer call. Why now Internal prep with Kelsey Fri 11:00 AM
+  ET ahead of customer abandon-cart use case discussion\; invite describe
+ s reviewing current state\, ideal state\, and Iterable recommendations. 
+ Source https://www.google.com/calendar/event?eid=NGZvdXVzNmZmdDVpbHVycGV
+ qZTFqb2E0djEg Managed by daily-impact-prioritizer. Run date: 2026-09-22
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

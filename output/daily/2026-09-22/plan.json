@@ -1,0 +1,60 @@
+{
+  "timezone": "America/New_York",
+  "generatedAt": "2026-09-22T10:21:02.630Z",
+  "runDate": "2026-09-22",
+  "days": [
+    {
+      "date": "2026-09-22",
+      "blocks": [
+        {
+          "workItemId": "rgg-weekly-checkin-prep",
+          "title": "🎯 Prep: RGG weekly check-in: ticket themes and deliverability talking points",
+          "startLocal": "2026-09-22T09:00:00",
+          "endLocal": "2026-09-22T09:25:00",
+          "expectedOutcome": "Bulleted wins, deliverability summary, and open Iterable support threads to review on the call.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=MG1xbWQzOGg2OTBzMWttN2N1a2ljNm8wNWVfMjAyNjA5MjJUMTcwMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t",
+          "rationale": "Iterable + RGG weekly check-in today at 1:00 PM ET during travel; invite agenda includes deliverability review, wins, and open support issues."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-09-23",
+      "blocks": [],
+      "unassignedItemIds": [
+        "adweek-onsite-ebr-prep",
+        "docusign-biweekly-checkin-prep"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "blocks": [
+        {
+          "workItemId": "paypal-honey-biweekly-prep",
+          "title": "🎯 Prep: PayPal Honey bi-weekly connect: deliverability and integration checklist",
+          "startLocal": "2026-09-24T17:00:00",
+          "endLocal": "2026-09-24T17:25:00",
+          "expectedOutcome": "Short wins/deliverability summary and any open SA architecture threads to raise on the connect.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=M2o4M3E4bmE5aWx0OGJ0bTQ4amljODhxbWdfMjAyNjA5MjRUMjAwMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t",
+          "rationale": "Iterable + PayPal Honey bi-weekly connect Thu 4:00 PM ET; standing agenda covers deliverability review and open support tickets per Chelsea’s template."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-09-25",
+      "blocks": [
+        {
+          "workItemId": "life-line-screening-internal-prep",
+          "title": "🎯 Prep: Life Line Screening: abandon-cart prep for internal sync",
+          "startLocal": "2026-09-25T10:00:00",
+          "endLocal": "2026-09-25T10:30:00",
+          "expectedOutcome": "Outline of abandon-cart flow questions, Iterable integration options, and SA recommendations to align with Kelsey before the customer call.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=NGZvdXVzNmZmdDVpbHVycGVqZTFqb2E0djEg",
+          "rationale": "Internal prep with Kelsey Fri 11:00 AM ET ahead of customer abandon-cart use case discussion; invite describes reviewing current state, ideal state, and Iterable recommendations."
+        }
+      ],
+      "unassignedItemIds": []
+    }
+  ]
+}
