@@ -1,0 +1,22 @@
+[
+  {
+    "summary": "🎯 Prep: PayPal Honey bi-weekly connect: deliverability and integration checklist",
+    "description": "<b>Expected outcome</b><br>Short wins/deliverability summary and any open SA architecture threads to raise on the connect.<br><br><b>Why now</b><br>Iterable + PayPal Honey bi-weekly connect Thu 4:00 PM ET; standing agenda covers deliverability review and open support tickets per Chelsea’s template.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=M2o4M3E4bmE5aWx0OGJ0bTQ4amljODhxbWdfMjAyNjA5MjRUMjAwMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t'>https://www.google.com/calendar/event?eid=M2o4M3E4bmE5aWx0OGJ0bTQ4amljODhxbWdfMjAyNjA5MjRUMjAwMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-23</i>",
+    "start_datetime": "2026-09-24T17:25:00",
+    "end_datetime": "2026-09-24T17:50:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-23\",\"dip_work_item_id\":\"paypal-honey-biweekly-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Life Line Screening: abandon-cart prep for internal sync",
+    "description": "<b>Expected outcome</b><br>Outline of abandon-cart flow questions, Iterable integration options, and SA recommendations to align with Kelsey before the customer call.<br><br><b>Why now</b><br>Internal prep with Kelsey Fri 11:00 AM ET ahead of abandon-cart use case work; invite describes reviewing current state, ideal state, and Iterable recommendations.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=NGZvdXVzNmZmdDVpbHVycGVqZTFqb2E0djEg'>https://www.google.com/calendar/event?eid=NGZvdXVzNmZmdDVpbHVycGVqZTFqb2E0djEg</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-23</i>",
+    "start_datetime": "2026-09-25T13:15:00",
+    "end_datetime": "2026-09-25T13:45:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-23\",\"dip_work_item_id\":\"life-line-screening-internal-prep\"}}"
+  }
+]
