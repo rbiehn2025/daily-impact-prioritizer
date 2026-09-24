@@ -1,0 +1,32 @@
+[
+  {
+    "summary": "🎯 Prep: Life Line Screening: abandon-cart prep for internal sync",
+    "description": "<b>Expected outcome</b><br>Outline of abandon-cart flow questions, Iterable integration options, and SA recommendations to align with Kelsey before the customer call.<br><br><b>Why now</b><br>Internal sync with Kelsey Fri 11:00 AM ET before the customer abandon-cart use case discussion; invite asks to align on current state, ideal state, and Iterable recommendations.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=NHFoNGY1NTR2aXU5OHNiZTJnOHJtZmRqaWcgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ'>https://www.google.com/calendar/event?eid=NHFoNGY1NTR2aXU5OHNiZTJnOHJtZmRqaWcgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-24</i>",
+    "start_datetime": "2026-09-25T09:00:00",
+    "end_datetime": "2026-09-25T09:30:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-24\",\"dip_work_item_id\":\"life-line-screening-internal-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Docusign biweekly enablement sync: custom events and open tracker items",
+    "description": "<b>Expected outcome</b><br>Short list of enablement/demo topics and open architecture questions from the Docusign project tracker to raise on the sync.<br><br><b>Why now</b><br>Docusign &lt;&gt; Iterable biweekly sync Fri 12:05 PM ET focuses on product overviews and troubleshooting; project tracker (updated 23 Sep) lists custom-event mapping, Command Center conversion tracking, and SA follow-ups including MCP documentation.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?authuser=robert.biehn%40iterable.com&amp;eid=MWVuZWdyNGk0NGcxNGh2N2VqMGxxdmw1Ym9fMjAyNjA5MjVUMTYwNTAwWiA%3D'>https://www.google.com/calendar/event?authuser=robert.biehn%40iterable.com&amp;eid=MWVuZWdyNGk0NGcxNGh2N2VqMGxxdmw1Ym9fMjAyNjA5MjVUMTYwNTAwWiA%3D</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-24</i>",
+    "start_datetime": "2026-09-25T09:30:00",
+    "end_datetime": "2026-09-25T09:55:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-24\",\"dip_work_item_id\":\"docusign-biweekly-sync-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Michael / Robert 1:1: customer portfolio and travel-week blockers",
+    "description": "<b>Expected outcome</b><br>Three bullets: wins this week, blocked items, and asks for Michael.<br><br><b>Why now</b><br>Standing flexible 1:1 Fri overlaps customer meetings; worth a short list of active accounts and anything needing manager air cover after a travel-heavy Thu.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=cGtnamY5cHRpZHBsMTVjdm9sOWo4ZTQzNzFfMjAyNjA5MjVUMTYzMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t'>https://www.google.com/calendar/event?eid=cGtnamY5cHRpZHBsMTVjdm9sOWo4ZTQzNzFfMjAyNjA5MjVUMTYzMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-24</i>",
+    "start_datetime": "2026-09-25T09:55:00",
+    "end_datetime": "2026-09-25T10:20:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-24\",\"dip_work_item_id\":\"michael-robert-1-1-prep\"}}"
+  }
+]

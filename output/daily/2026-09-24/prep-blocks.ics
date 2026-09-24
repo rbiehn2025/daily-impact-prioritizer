@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//daily-impact-prioritizer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260925T090000-PrepLifeLineScreeningaba@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260925T090000
+DTEND;TZID=America/New_York:20260925T093000
+SUMMARY:🎯 Prep: Life Line Screening: abandon-cart prep for internal sync
+DESCRIPTION:Expected outcome Outline of abandon-cart flow questions\, Ite
+ rable integration options\, and SA recommendations to align with Kelsey 
+ before the customer call. Why now Internal sync with Kelsey Fri 11:00 AM
+  ET before the customer abandon-cart use case discussion\; invite asks t
+ o align on current state\, ideal state\, and Iterable recommendations. S
+ ource https://www.google.com/calendar/event?eid=NHFoNGY1NTR2aXU5OHNiZTJn
+ OHJtZmRqaWcgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by daily-impact-p
+ rioritizer. Run date: 2026-09-24
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260925T093000-PrepDocusignbiweeklyenab@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260925T093000
+DTEND;TZID=America/New_York:20260925T095500
+SUMMARY:🎯 Prep: Docusign biweekly enablement sync: custom events and ope
+ n tracker items
+DESCRIPTION:Expected outcome Short list of enablement/demo topics and ope
+ n architecture questions from the Docusign project tracker to raise on t
+ he sync. Why now Docusign &lt\;&gt\; Iterable biweekly sync Fri 12:05 PM
+  ET focuses on product overviews and troubleshooting\; project tracker (
+ updated 23 Sep) lists custom-event mapping\, Command Center conversion t
+ racking\, and SA follow-ups including MCP documentation. Source https://
+ www.google.com/calendar/event?authuser=robert.biehn%40iterable.com&amp\;
+ eid=MWVuZWdyNGk0NGcxNGh2N2VqMGxxdmw1Ym9fMjAyNjA5MjVUMTYwNTAwWiA%3D Manag
+ ed by daily-impact-prioritizer. Run date: 2026-09-24
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260925T095500-PrepMichaelRobert11custo@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260925T095500
+DTEND;TZID=America/New_York:20260925T102000
+SUMMARY:🎯 Prep: Michael / Robert 1:1: customer portfolio and travel-week
+  blockers
+DESCRIPTION:Expected outcome Three bullets: wins this week\, blocked item
+ s\, and asks for Michael. Why now Standing flexible 1:1 Fri overlaps cus
+ tomer meetings\; worth a short list of active accounts and anything need
+ ing manager air cover after a travel-heavy Thu. Source https://www.googl
+ e.com/calendar/event?eid=cGtnamY5cHRpZHBsMTVjdm9sOWo4ZTQzNzFfMjAyNjA5MjV
+ UMTYzMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t Managed by daily-impact-pr
+ ioritizer. Run date: 2026-09-24
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
