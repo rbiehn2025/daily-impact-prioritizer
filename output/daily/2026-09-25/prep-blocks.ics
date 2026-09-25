@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//daily-impact-prioritizer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260925T095500-PrepPayPalHoneyarchitect@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260925T095500
+DTEND;TZID=America/New_York:20260925T102500
+SUMMARY:🎯 Prep: PayPal Honey architecture review: data model and integra
+ tion talking points
+DESCRIPTION:Expected outcome One-page outline: top 3 architecture/integra
+ tion proof points from internal notes\, 3 discovery questions\, and item
+ s to avoid surfacing (renewal/pricing) unless customer raises them. Why 
+ now External architecture review with PayPal Honey today at 3:00 PM ET\;
+  internal notes (24 Sep) flag partial audit exports\, batch vs. streamin
+ g confirmation\, and renewal context—need a focused SA narrative before 
+ the customer session. Source https://docs.google.com/document/d/1Eei_tW8
+ xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA Managed by daily-impact-prioritizer
+ . Run date: 2026-09-25
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260925T160000-PrepLifeLineScreeningaba@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260925T160000
+DTEND;TZID=America/New_York:20260925T163000
+SUMMARY:🎯 Prep: Life Line Screening: abandon-cart prep for internal sync
+DESCRIPTION:Expected outcome Outline of abandon-cart flow questions\, Ite
+ rable integration options\, and SA recommendations to align with Kelsey 
+ before the customer call. Why now Internal sync with Kelsey at 11:00 AM 
+ ET ahead of the customer abandon-cart use case discussion\; invite asks 
+ to align on current state\, ideal state\, and Iterable recommendations. 
+ Source https://www.google.com/calendar/event?eid=NHFoNGY1NTR2aXU5OHNiZTJ
+ nOHJtZmRqaWcgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by daily-impact-
+ prioritizer. Run date: 2026-09-25
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260925T102500-PrepDocusignbiweeklyenab@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260925T102500
+DTEND;TZID=America/New_York:20260925T105000
+SUMMARY:🎯 Prep: Docusign biweekly enablement sync: custom events and ope
+ n tracker items
+DESCRIPTION:Expected outcome Short list of enablement/demo topics and ope
+ n architecture questions from the Docusign project tracker to raise on t
+ he sync. Why now Docusign &lt\;&gt\; Iterable biweekly sync at 12:05 PM 
+ ET\; project tracker updated 24 Sep lists custom-event mapping\, Command
+  Center conversion tracking\, and SA follow-ups including MCP documentat
+ ion. Source https://docs.google.com/spreadsheets/d/1QLkW-r1r-YS1DSJMSTnU
+ N5BW6D7UUVkDkuJQG71PLWE Managed by daily-impact-prioritizer. Run date: 2
+ 026-09-25
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260925T113000-PrepRobertLukeAskProduct@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260925T113000
+DTEND;TZID=America/New_York:20260925T115500
+SUMMARY:🎯 Prep: Robert + Luke Ask Product: open SA questions backlog
+DESCRIPTION:Expected outcome Three prioritized product questions or featu
+ re clarifications with customer context to discuss with Luke. Why now St
+ anding Ask Product slot at 1:30 PM ET\; recent activity shows active cus
+ tomer prep work—worth listing product gaps or escalations that need Luke
+ ’s input. Source https://www.google.com/calendar/event?eid=MmV1MWNnaW51c
+ HY5ZGx0ajYwaHFldTl1YTUgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by dai
+ ly-impact-prioritizer. Run date: 2026-09-25
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

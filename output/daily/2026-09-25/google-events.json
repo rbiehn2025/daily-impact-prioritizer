@@ -1,0 +1,42 @@
+[
+  {
+    "summary": "🎯 Prep: PayPal Honey architecture review: data model and integration talking points",
+    "description": "<b>Expected outcome</b><br>One-page outline: top 3 architecture/integration proof points from internal notes, 3 discovery questions, and items to avoid surfacing (renewal/pricing) unless customer raises them.<br><br><b>Why now</b><br>External architecture review with PayPal Honey today at 3:00 PM ET; internal notes (24 Sep) flag partial audit exports, batch vs. streaming confirmation, and renewal context—need a focused SA narrative before the customer session.<br><br><b>Source</b><br><a href='https://docs.google.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA'>https://docs.google.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-25</i>",
+    "start_datetime": "2026-09-25T09:55:00",
+    "end_datetime": "2026-09-25T10:25:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-25\",\"dip_work_item_id\":\"paypal-honey-architecture-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Life Line Screening: abandon-cart prep for internal sync",
+    "description": "<b>Expected outcome</b><br>Outline of abandon-cart flow questions, Iterable integration options, and SA recommendations to align with Kelsey before the customer call.<br><br><b>Why now</b><br>Internal sync with Kelsey at 11:00 AM ET ahead of the customer abandon-cart use case discussion; invite asks to align on current state, ideal state, and Iterable recommendations.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=NHFoNGY1NTR2aXU5OHNiZTJnOHJtZmRqaWcgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ'>https://www.google.com/calendar/event?eid=NHFoNGY1NTR2aXU5OHNiZTJnOHJtZmRqaWcgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-25</i>",
+    "start_datetime": "2026-09-25T16:00:00",
+    "end_datetime": "2026-09-25T16:30:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-25\",\"dip_work_item_id\":\"life-line-screening-internal-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Docusign biweekly enablement sync: custom events and open tracker items",
+    "description": "<b>Expected outcome</b><br>Short list of enablement/demo topics and open architecture questions from the Docusign project tracker to raise on the sync.<br><br><b>Why now</b><br>Docusign &lt;&gt; Iterable biweekly sync at 12:05 PM ET; project tracker updated 24 Sep lists custom-event mapping, Command Center conversion tracking, and SA follow-ups including MCP documentation.<br><br><b>Source</b><br><a href='https://docs.google.com/spreadsheets/d/1QLkW-r1r-YS1DSJMSTnUN5BW6D7UUVkDkuJQG71PLWE'>https://docs.google.com/spreadsheets/d/1QLkW-r1r-YS1DSJMSTnUN5BW6D7UUVkDkuJQG71PLWE</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-25</i>",
+    "start_datetime": "2026-09-25T10:25:00",
+    "end_datetime": "2026-09-25T10:50:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-25\",\"dip_work_item_id\":\"docusign-biweekly-sync-prep\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Robert + Luke Ask Product: open SA questions backlog",
+    "description": "<b>Expected outcome</b><br>Three prioritized product questions or feature clarifications with customer context to discuss with Luke.<br><br><b>Why now</b><br>Standing Ask Product slot at 1:30 PM ET; recent activity shows active customer prep work—worth listing product gaps or escalations that need Luke’s input.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=MmV1MWNnaW51cHY5ZGx0ajYwaHFldTl1YTUgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ'>https://www.google.com/calendar/event?eid=MmV1MWNnaW51cHY5ZGx0ajYwaHFldTl1YTUgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-25</i>",
+    "start_datetime": "2026-09-25T11:30:00",
+    "end_datetime": "2026-09-25T11:55:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-25\",\"dip_work_item_id\":\"luke-ask-product-prep\"}}"
+  }
+]

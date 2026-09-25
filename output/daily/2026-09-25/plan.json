@@ -1,0 +1,51 @@
+{
+  "timezone": "America/New_York",
+  "generatedAt": "2026-09-25T10:02:50.997Z",
+  "runDate": "2026-09-25",
+  "days": [
+    {
+      "date": "2026-09-25",
+      "blocks": [
+        {
+          "workItemId": "paypal-honey-architecture-prep",
+          "title": "🎯 Prep: PayPal Honey architecture review: data model and integration talking points",
+          "startLocal": "2026-09-25T09:55:00",
+          "endLocal": "2026-09-25T10:25:00",
+          "expectedOutcome": "One-page outline: top 3 architecture/integration proof points from internal notes, 3 discovery questions, and items to avoid surfacing (renewal/pricing) unless customer raises them.",
+          "sourceUrl": "https://docs.google.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA",
+          "rationale": "External architecture review with PayPal Honey today at 3:00 PM ET; internal notes (24 Sep) flag partial audit exports, batch vs. streaming confirmation, and renewal context—need a focused SA narrative before the customer session."
+        },
+        {
+          "workItemId": "life-line-screening-internal-prep",
+          "title": "🎯 Prep: Life Line Screening: abandon-cart prep for internal sync",
+          "startLocal": "2026-09-25T16:00:00",
+          "endLocal": "2026-09-25T16:30:00",
+          "expectedOutcome": "Outline of abandon-cart flow questions, Iterable integration options, and SA recommendations to align with Kelsey before the customer call.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=NHFoNGY1NTR2aXU5OHNiZTJnOHJtZmRqaWcgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "Internal sync with Kelsey at 11:00 AM ET ahead of the customer abandon-cart use case discussion; invite asks to align on current state, ideal state, and Iterable recommendations."
+        },
+        {
+          "workItemId": "docusign-biweekly-sync-prep",
+          "title": "🎯 Prep: Docusign biweekly enablement sync: custom events and open tracker items",
+          "startLocal": "2026-09-25T10:25:00",
+          "endLocal": "2026-09-25T10:50:00",
+          "expectedOutcome": "Short list of enablement/demo topics and open architecture questions from the Docusign project tracker to raise on the sync.",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/1QLkW-r1r-YS1DSJMSTnUN5BW6D7UUVkDkuJQG71PLWE",
+          "rationale": "Docusign <> Iterable biweekly sync at 12:05 PM ET; project tracker updated 24 Sep lists custom-event mapping, Command Center conversion tracking, and SA follow-ups including MCP documentation."
+        },
+        {
+          "workItemId": "luke-ask-product-prep",
+          "title": "🎯 Prep: Robert + Luke Ask Product: open SA questions backlog",
+          "startLocal": "2026-09-25T11:30:00",
+          "endLocal": "2026-09-25T11:55:00",
+          "expectedOutcome": "Three prioritized product questions or feature clarifications with customer context to discuss with Luke.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=MmV1MWNnaW51cHY5ZGx0ajYwaHFldTl1YTUgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "Standing Ask Product slot at 1:30 PM ET; recent activity shows active customer prep work—worth listing product gaps or escalations that need Luke’s input."
+        }
+      ],
+      "unassignedItemIds": [
+        "michael-robert-1-1-prep"
+      ]
+    }
+  ]
+}
