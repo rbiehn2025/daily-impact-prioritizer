@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//daily-impact-prioritizer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260928T090000-PrepG2dataarchitecturefo@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260928T090000
+DTEND;TZID=America/New_York:20260928T093000
+SUMMARY:🎯 Prep: G2 data & architecture follow-up: open mapping items and
+  Nov migration readiness
+DESCRIPTION:Expected outcome Bulleted talking points on nested-type/array
+  update behavior\, open asks from G2 (sample profiles\, user limits)\, a
+ nd next SA actions from the strategy deck. Why now External G2 + Iterabl
+ e Data &amp\; Architecture Follow-up today at 11:00 AM ET\; Sep 15 SA se
+ ssion notes flag outstanding sample nested objects\, user limits\, and S
+ mart Ingest validation ahead of Nov GA timeline. Source https://docs.goo
+ gle.com/presentation/d/1CRKj9eUvn5Z0QZDau0A2k53k2El_6at7ThthsKChZc8/edit
+  Managed by daily-impact-prioritizer. Run date: 2026-09-28
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260928T093000-PrepLaserAwayQuiklyItera@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260928T093000
+DTEND;TZID=America/New_York:20260928T095500
+SUMMARY:🎯 Prep: LaserAway / Quikly / Iterable touch base: integration st
+ atus and open threads
+DESCRIPTION:Expected outcome Three integration or journey open items plus
+  owners to confirm on the call\; note any Quikly-specific dependencies t
+ o carry into the LaserAway bi-weekly. Why now Customer-facing Iterable |
+  Quikly | Laser Away touch base today at 2:00 PM ET\; standing bi-weekly
+  LaserAway sync agenda doc is linked on tomorrow’s LaserAway call—worth 
+ aligning Quikly partner context before the joint session. Source https:/
+ /www.google.com/calendar/event?eid=OXQyMnE5OGM3aXRqc3FramhiOGswYmxyM28gc
+ m9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by daily-impact-prioritizer. R
+ un date: 2026-09-28
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T100000-PrepLifeLineScreeningaba@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260929T100000
+DTEND;TZID=America/New_York:20260929T103000
+SUMMARY:🎯 Prep: Life Line Screening abandon cart: customer use-case disc
+ ussion prep
+DESCRIPTION:Expected outcome Structured questions on current cart/abandon
+  flow\, 2–3 Iterable integration patterns to recommend\, and SA follow-u
+ ps to capture live. Why now External Life Line Screening + Iterable aban
+ don-cart use case discussion Tue 11:45 AM ET\; invite asks for current-s
+ tate review\, ideal state\, and Iterable recommendations with Solutions 
+ on the call. Source https://www.google.com/calendar/event?eid=NGZvdXVzNm
+ ZmdDVpbHVycGVqZTFqb2E0djEgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by 
+ daily-impact-prioritizer. Run date: 2026-09-28
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T103000-PrepWawaSegmentIterabled@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260929T103000
+DTEND;TZID=America/New_York:20260929T110000
+SUMMARY:🎯 Prep: Wawa + Segment + Iterable: duplication email alignment t
+ alking points
+DESCRIPTION:Expected outcome Concise alignment brief: prevention vs clean
+ up tracks\, 3 discovery questions for Segment\, and whether to propose U
+ ser ID API mode or Smart Ingest email-update sync. Why now Twilio (Segme
+ nt) | Iterable Wawa alignment Tue 2:00 PM ET\; Sep 16 status notes and r
+ ecent prep work center on email-change identity flow\, User ID options\,
+  and upstream Segment behavior—not solved in Iterable alone. Source http
+ s://docs.google.com/document/d/1Xr2LLG7G3xOzaPBrYMunOchheykETxQ7SQ7H3r6T
+ gE4 Managed by daily-impact-prioritizer. Run date: 2026-09-28
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260930T090000-PrepPayPalHoneyarchitect@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260930T090000
+DTEND;TZID=America/New_York:20260930T093000
+SUMMARY:🎯 Prep: PayPal Honey architecture review part 2: carry-forward p
+ roof points
+DESCRIPTION:Expected outcome One-page outline: architecture proof points 
+ from prior session notes\, 3 discovery questions\, and open integration 
+ items to close on the call. Why now External Iterable + PayPal Honey Arc
+ hitecture Review Part 2 Wed 12:00 PM ET\; Robert accepted invite after S
+ ep 25 internal prep on data model and integration talking points—need re
+ freshed narrative for part 2. Source https://docs.google.com/document/d/
+ 1Eei_tW8xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA Managed by daily-impact-pri
+ oritizer. Run date: 2026-09-28
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,80 @@
+{
+  "timezone": "America/New_York",
+  "generatedAt": "2026-09-28T10:03:53.913Z",
+  "runDate": "2026-09-28",
+  "days": [
+    {
+      "date": "2026-09-28",
+      "blocks": [
+        {
+          "workItemId": "g2-data-architecture-followup",
+          "title": "🎯 Prep: G2 data & architecture follow-up: open mapping items and Nov migration readiness",
+          "startLocal": "2026-09-28T09:00:00",
+          "endLocal": "2026-09-28T09:30:00",
+          "expectedOutcome": "Bulleted talking points on nested-type/array update behavior, open asks from G2 (sample profiles, user limits), and next SA actions from the strategy deck.",
+          "sourceUrl": "https://docs.google.com/presentation/d/1CRKj9eUvn5Z0QZDau0A2k53k2El_6at7ThthsKChZc8/edit",
+          "rationale": "External G2 + Iterable Data & Architecture Follow-up today at 11:00 AM ET; Sep 15 SA session notes flag outstanding sample nested objects, user limits, and Smart Ingest validation ahead of Nov GA timeline."
+        },
+        {
+          "workItemId": "laseraway-quikly-touchbase",
+          "title": "🎯 Prep: LaserAway / Quikly / Iterable touch base: integration status and open threads",
+          "startLocal": "2026-09-28T09:30:00",
+          "endLocal": "2026-09-28T09:55:00",
+          "expectedOutcome": "Three integration or journey open items plus owners to confirm on the call; note any Quikly-specific dependencies to carry into the LaserAway bi-weekly.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=OXQyMnE5OGM3aXRqc3FramhiOGswYmxyM28gcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "Customer-facing Iterable | Quikly | Laser Away touch base today at 2:00 PM ET; standing bi-weekly LaserAway sync agenda doc is linked on tomorrow’s LaserAway call—worth aligning Quikly partner context before the joint session."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-09-29",
+      "blocks": [
+        {
+          "workItemId": "life-line-abandon-cart-customer",
+          "title": "🎯 Prep: Life Line Screening abandon cart: customer use-case discussion prep",
+          "startLocal": "2026-09-29T10:00:00",
+          "endLocal": "2026-09-29T10:30:00",
+          "expectedOutcome": "Structured questions on current cart/abandon flow, 2–3 Iterable integration patterns to recommend, and SA follow-ups to capture live.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=NGZvdXVzNmZmdDVpbHVycGVqZTFqb2E0djEgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "External Life Line Screening + Iterable abandon-cart use case discussion Tue 11:45 AM ET; invite asks for current-state review, ideal state, and Iterable recommendations with Solutions on the call."
+        },
+        {
+          "workItemId": "wawa-segment-duplication-alignment",
+          "title": "🎯 Prep: Wawa + Segment + Iterable: duplication email alignment talking points",
+          "startLocal": "2026-09-29T10:30:00",
+          "endLocal": "2026-09-29T11:00:00",
+          "expectedOutcome": "Concise alignment brief: prevention vs cleanup tracks, 3 discovery questions for Segment, and whether to propose User ID API mode or Smart Ingest email-update sync.",
+          "sourceUrl": "https://docs.google.com/document/d/1Xr2LLG7G3xOzaPBrYMunOchheykETxQ7SQ7H3r6TgE4",
+          "rationale": "Twilio (Segment) | Iterable Wawa alignment Tue 2:00 PM ET; Sep 16 status notes and recent prep work center on email-change identity flow, User ID options, and upstream Segment behavior—not solved in Iterable alone."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-09-30",
+      "blocks": [
+        {
+          "workItemId": "paypal-honey-architecture-part2",
+          "title": "🎯 Prep: PayPal Honey architecture review part 2: carry-forward proof points",
+          "startLocal": "2026-09-30T09:00:00",
+          "endLocal": "2026-09-30T09:30:00",
+          "expectedOutcome": "One-page outline: architecture proof points from prior session notes, 3 discovery questions, and open integration items to close on the call.",
+          "sourceUrl": "https://docs.google.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA",
+          "rationale": "External Iterable + PayPal Honey Architecture Review Part 2 Wed 12:00 PM ET; Robert accepted invite after Sep 25 internal prep on data model and integration talking points—need refreshed narrative for part 2."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-10-01",
+      "blocks": [],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-10-02",
+      "blocks": [],
+      "unassignedItemIds": []
+    }
+  ]
+}

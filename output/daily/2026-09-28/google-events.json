@@ -1,0 +1,52 @@
+[
+  {
+    "summary": "🎯 Prep: G2 data & architecture follow-up: open mapping items and Nov migration readiness",
+    "description": "<b>Expected outcome</b><br>Bulleted talking points on nested-type/array update behavior, open asks from G2 (sample profiles, user limits), and next SA actions from the strategy deck.<br><br><b>Why now</b><br>External G2 + Iterable Data &amp; Architecture Follow-up today at 11:00 AM ET; Sep 15 SA session notes flag outstanding sample nested objects, user limits, and Smart Ingest validation ahead of Nov GA timeline.<br><br><b>Source</b><br><a href='https://docs.google.com/presentation/d/1CRKj9eUvn5Z0QZDau0A2k53k2El_6at7ThthsKChZc8/edit'>https://docs.google.com/presentation/d/1CRKj9eUvn5Z0QZDau0A2k53k2El_6at7ThthsKChZc8/edit</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-28</i>",
+    "start_datetime": "2026-09-28T09:00:00",
+    "end_datetime": "2026-09-28T09:30:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-28\",\"dip_work_item_id\":\"g2-data-architecture-followup\"}}"
+  },
+  {
+    "summary": "🎯 Prep: LaserAway / Quikly / Iterable touch base: integration status and open threads",
+    "description": "<b>Expected outcome</b><br>Three integration or journey open items plus owners to confirm on the call; note any Quikly-specific dependencies to carry into the LaserAway bi-weekly.<br><br><b>Why now</b><br>Customer-facing Iterable | Quikly | Laser Away touch base today at 2:00 PM ET; standing bi-weekly LaserAway sync agenda doc is linked on tomorrow’s LaserAway call—worth aligning Quikly partner context before the joint session.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=OXQyMnE5OGM3aXRqc3FramhiOGswYmxyM28gcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ'>https://www.google.com/calendar/event?eid=OXQyMnE5OGM3aXRqc3FramhiOGswYmxyM28gcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-28</i>",
+    "start_datetime": "2026-09-28T09:30:00",
+    "end_datetime": "2026-09-28T09:55:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-28\",\"dip_work_item_id\":\"laseraway-quikly-touchbase\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Life Line Screening abandon cart: customer use-case discussion prep",
+    "description": "<b>Expected outcome</b><br>Structured questions on current cart/abandon flow, 2–3 Iterable integration patterns to recommend, and SA follow-ups to capture live.<br><br><b>Why now</b><br>External Life Line Screening + Iterable abandon-cart use case discussion Tue 11:45 AM ET; invite asks for current-state review, ideal state, and Iterable recommendations with Solutions on the call.<br><br><b>Source</b><br><a href='https://www.google.com/calendar/event?eid=NGZvdXVzNmZmdDVpbHVycGVqZTFqb2E0djEgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ'>https://www.google.com/calendar/event?eid=NGZvdXVzNmZmdDVpbHVycGVqZTFqb2E0djEgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-28</i>",
+    "start_datetime": "2026-09-29T10:00:00",
+    "end_datetime": "2026-09-29T10:30:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-28\",\"dip_work_item_id\":\"life-line-abandon-cart-customer\"}}"
+  },
+  {
+    "summary": "🎯 Prep: Wawa + Segment + Iterable: duplication email alignment talking points",
+    "description": "<b>Expected outcome</b><br>Concise alignment brief: prevention vs cleanup tracks, 3 discovery questions for Segment, and whether to propose User ID API mode or Smart Ingest email-update sync.<br><br><b>Why now</b><br>Twilio (Segment) | Iterable Wawa alignment Tue 2:00 PM ET; Sep 16 status notes and recent prep work center on email-change identity flow, User ID options, and upstream Segment behavior—not solved in Iterable alone.<br><br><b>Source</b><br><a href='https://docs.google.com/document/d/1Xr2LLG7G3xOzaPBrYMunOchheykETxQ7SQ7H3r6TgE4'>https://docs.google.com/document/d/1Xr2LLG7G3xOzaPBrYMunOchheykETxQ7SQ7H3r6TgE4</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-28</i>",
+    "start_datetime": "2026-09-29T10:30:00",
+    "end_datetime": "2026-09-29T11:00:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-28\",\"dip_work_item_id\":\"wawa-segment-duplication-alignment\"}}"
+  },
+  {
+    "summary": "🎯 Prep: PayPal Honey architecture review part 2: carry-forward proof points",
+    "description": "<b>Expected outcome</b><br>One-page outline: architecture proof points from prior session notes, 3 discovery questions, and open integration items to close on the call.<br><br><b>Why now</b><br>External Iterable + PayPal Honey Architecture Review Part 2 Wed 12:00 PM ET; Robert accepted invite after Sep 25 internal prep on data model and integration talking points—need refreshed narrative for part 2.<br><br><b>Source</b><br><a href='https://docs.google.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA'>https://docs.google.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA</a><br><br><i>Managed by daily-impact-prioritizer. Run date: 2026-09-28</i>",
+    "start_datetime": "2026-09-30T09:00:00",
+    "end_datetime": "2026-09-30T09:30:00",
+    "timezone": "America/New_York",
+    "visibility": "private",
+    "create_meeting_room": false,
+    "extended_properties": "{\"private\":{\"daily-impact-prioritizer\":\"true\",\"dip_run_date\":\"2026-09-28\",\"dip_work_item_id\":\"paypal-honey-architecture-part2\"}}"
+  }
+]
