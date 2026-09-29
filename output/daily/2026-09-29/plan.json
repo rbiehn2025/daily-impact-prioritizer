@@ -1,0 +1,74 @@
+{
+  "timezone": "America/New_York",
+  "generatedAt": "2026-09-29T10:03:00.723Z",
+  "runDate": "2026-09-29",
+  "days": [
+    {
+      "date": "2026-09-29",
+      "blocks": [
+        {
+          "workItemId": "life-line-abandon-cart-customer",
+          "title": "🎯 Prep: Life Line Screening abandon cart: customer use-case discussion prep",
+          "startLocal": "2026-09-29T11:00:00",
+          "endLocal": "2026-09-29T11:30:00",
+          "expectedOutcome": "Structured questions on current cart/abandon flow, 2–3 Iterable integration patterns to recommend, and SA follow-ups to capture live.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=NGZvdXVzNmZmdDVpbHVycGVqZTFqb2E0djEgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "External Life Line Screening + Iterable call Tue 11:45 AM ET covers abandon cart, Catalog, and MCP; invite asks for current state, ideal state, and Iterable recommendations with Solutions on the call."
+        },
+        {
+          "workItemId": "wawa-segment-duplication-alignment",
+          "title": "🎯 Prep: Wawa + Segment + Iterable: duplication email alignment talking points",
+          "startLocal": "2026-09-29T17:00:00",
+          "endLocal": "2026-09-29T17:30:00",
+          "expectedOutcome": "Concise alignment brief: prevention vs cleanup tracks, 3 discovery questions for Segment, and whether to propose User ID API mode or Smart Ingest email-update sync.",
+          "sourceUrl": "https://docs.google.com/document/d/1Xr2LLG7G3xOzaPBrYMunOchheykETxQ7SQ7H3r6TgE4",
+          "rationale": "Twilio (Segment) | Iterable Wawa alignment Tue 2:00 PM ET; recent internal notes center on email-change identity flow, User ID options, and upstream Segment behavior."
+        },
+        {
+          "workItemId": "laseraway-biweekly-sync",
+          "title": "🎯 Prep: LaserAway bi-weekly: agenda review and open integration items",
+          "startLocal": "2026-09-29T17:30:00",
+          "endLocal": "2026-09-29T17:55:00",
+          "expectedOutcome": "Top three open items from agenda doc with owners; one Quikly/partner dependency to confirm if still relevant.",
+          "sourceUrl": "https://docs.google.com/document/d/1KuEARxKNkWhy5D7fvmLQjAA-Ery1vxQi9nzabTjREpM/edit?tab=t.0",
+          "rationale": "Customer LaserAway <> Iterable bi-weekly Tue 4:00 PM ET; standing sync agenda doc linked on invite—Robert updated calendar context today."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-09-30",
+      "blocks": [
+        {
+          "workItemId": "paypal-honey-architecture-part2",
+          "title": "🎯 Prep: PayPal Honey architecture review part 2: carry-forward proof points",
+          "startLocal": "2026-09-30T09:30:00",
+          "endLocal": "2026-09-30T10:00:00",
+          "expectedOutcome": "One-page outline: architecture proof points from prior session notes, 3 discovery questions, and open integration items to close on the call.",
+          "sourceUrl": "https://docs.google.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA",
+          "rationale": "External Iterable + PayPal Honey Architecture Review Part 2 Wed noon ET; Sep 25 prep doc and recent activity on data model and integration talking points."
+        },
+        {
+          "workItemId": "journey-review-rgg",
+          "title": "🎯 Prep: RGG journey review: prep questions and journey gaps",
+          "startLocal": "2026-09-30T10:00:00",
+          "endLocal": "2026-09-30T10:25:00",
+          "expectedOutcome": "Three journey-specific discovery questions and any Iterable capability gaps to flag with Chelsea on the call.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=NnNoM2VldWYwY2ZlMWF1ZzlwMW50cHVmOW0gcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "External Journey Review with RGG Wed 11:00 AM ET; Robert created the series and accepted—needs concise journey talking points ahead of PayPal same day."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-10-01",
+      "blocks": [],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-10-02",
+      "blocks": [],
+      "unassignedItemIds": []
+    }
+  ]
+}

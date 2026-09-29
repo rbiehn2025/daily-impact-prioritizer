@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//daily-impact-prioritizer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260929T110000-PrepLifeLineScreeningaba@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260929T110000
+DTEND;TZID=America/New_York:20260929T113000
+SUMMARY:🎯 Prep: Life Line Screening abandon cart: customer use-case disc
+ ussion prep
+DESCRIPTION:Expected outcome Structured questions on current cart/abandon
+  flow\, 2–3 Iterable integration patterns to recommend\, and SA follow-u
+ ps to capture live. Why now External Life Line Screening + Iterable call
+  Tue 11:45 AM ET covers abandon cart\, Catalog\, and MCP\; invite asks f
+ or current state\, ideal state\, and Iterable recommendations with Solut
+ ions on the call. Source https://www.google.com/calendar/event?eid=NGZvd
+ XVzNmZmdDVpbHVycGVqZTFqb2E0djEgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Manage
+ d by daily-impact-prioritizer. Run date: 2026-09-29
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T170000-PrepWawaSegmentIterabled@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260929T170000
+DTEND;TZID=America/New_York:20260929T173000
+SUMMARY:🎯 Prep: Wawa + Segment + Iterable: duplication email alignment t
+ alking points
+DESCRIPTION:Expected outcome Concise alignment brief: prevention vs clean
+ up tracks\, 3 discovery questions for Segment\, and whether to propose U
+ ser ID API mode or Smart Ingest email-update sync. Why now Twilio (Segme
+ nt) | Iterable Wawa alignment Tue 2:00 PM ET\; recent internal notes cen
+ ter on email-change identity flow\, User ID options\, and upstream Segme
+ nt behavior. Source https://docs.google.com/document/d/1Xr2LLG7G3xOzaPBr
+ YMunOchheykETxQ7SQ7H3r6TgE4 Managed by daily-impact-prioritizer. Run dat
+ e: 2026-09-29
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T173000-PrepLaserAwaybiweeklyage@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260929T173000
+DTEND;TZID=America/New_York:20260929T175500
+SUMMARY:🎯 Prep: LaserAway bi-weekly: agenda review and open integration 
+ items
+DESCRIPTION:Expected outcome Top three open items from agenda doc with ow
+ ners\; one Quikly/partner dependency to confirm if still relevant. Why n
+ ow Customer LaserAway &lt\;&gt\; Iterable bi-weekly Tue 4:00 PM ET\; sta
+ nding sync agenda doc linked on invite—Robert updated calendar context t
+ oday. Source https://docs.google.com/document/d/1KuEARxKNkWhy5D7fvmLQjAA
+ -Ery1vxQi9nzabTjREpM/edit?tab=t.0 Managed by daily-impact-prioritizer. R
+ un date: 2026-09-29
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260930T093000-PrepPayPalHoneyarchitect@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260930T093000
+DTEND;TZID=America/New_York:20260930T100000
+SUMMARY:🎯 Prep: PayPal Honey architecture review part 2: carry-forward p
+ roof points
+DESCRIPTION:Expected outcome One-page outline: architecture proof points 
+ from prior session notes\, 3 discovery questions\, and open integration 
+ items to close on the call. Why now External Iterable + PayPal Honey Arc
+ hitecture Review Part 2 Wed noon ET\; Sep 25 prep doc and recent activit
+ y on data model and integration talking points. Source https://docs.goog
+ le.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA Managed b
+ y daily-impact-prioritizer. Run date: 2026-09-29
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260930T100000-PrepRGGjourneyreviewprep@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260930T100000
+DTEND;TZID=America/New_York:20260930T102500
+SUMMARY:🎯 Prep: RGG journey review: prep questions and journey gaps
+DESCRIPTION:Expected outcome Three journey-specific discovery questions a
+ nd any Iterable capability gaps to flag with Chelsea on the call. Why no
+ w External Journey Review with RGG Wed 11:00 AM ET\; Robert created the 
+ series and accepted—needs concise journey talking points ahead of PayPal
+  same day. Source https://www.google.com/calendar/event?eid=NnNoM2VldWYw
+ Y2ZlMWF1ZzlwMW50cHVmOW0gcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by da
+ ily-impact-prioritizer. Run date: 2026-09-29
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
