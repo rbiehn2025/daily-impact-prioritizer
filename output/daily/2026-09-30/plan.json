@@ -1,0 +1,69 @@
+{
+  "timezone": "America/New_York",
+  "generatedAt": "2026-09-30T10:05:08.731Z",
+  "runDate": "2026-09-30",
+  "days": [
+    {
+      "date": "2026-09-30",
+      "blocks": [
+        {
+          "workItemId": "paypal-honey-architecture-part2",
+          "title": "🎯 Prep: Prepare PayPal Honey architecture review part 2: carry-forward proof points",
+          "startLocal": "2026-09-30T15:00:00",
+          "endLocal": "2026-09-30T15:30:00",
+          "expectedOutcome": "One-page outline: architecture proof points from prior session notes, 3 discovery questions, and open integration items to close on the call.",
+          "sourceUrl": "https://docs.google.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA",
+          "rationale": "External Iterable + PayPal Honey Architecture Review Part 2 Wed noon ET; Sep 25 prep doc and recent activity on data model and integration talking points."
+        },
+        {
+          "workItemId": "journey-review-rgg",
+          "title": "🎯 Prep: Prepare RGG journey review: questions and journey gaps",
+          "startLocal": "2026-09-30T10:25:00",
+          "endLocal": "2026-09-30T10:50:00",
+          "expectedOutcome": "Three journey-specific discovery questions and any Iterable capability gaps to flag with Chelsea on the call.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=NnNoM2VldWYwY2ZlMWF1ZzlwMW50cHVmOW0gcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "External Journey Review with RGG Wed 11:00 AM ET; Robert created the series—needs concise journey talking points ahead of PayPal same day."
+        },
+        {
+          "workItemId": "redfin-biweekly-ebr-prep",
+          "title": "🎯 Prep: Prepare Redfin biweekly sync and EBR prep talking points",
+          "startLocal": "2026-09-30T17:00:00",
+          "endLocal": "2026-09-30T17:30:00",
+          "expectedOutcome": "Top three open Zendesk/Jira themes with status lines for biweekly, plus two EBR prep bullets tied to the Oct onsite report.",
+          "sourceUrl": "https://docs.google.com/document/d/1TYPKuHAKJZmJOFQuiSfYMNZJ_jziSZB_wF773a-XyIw",
+          "rationale": "Redfin / Iterable biweekly Wed 4:00 PM ET plus EBR prep block same evening; recent onsite report and shared agenda doc frame open latency and stability threads."
+        },
+        {
+          "workItemId": "rnc-biweekly-sync",
+          "title": "🎯 Prep: Prepare RNC x Iterable bi-weekly: agenda and deliverability topics",
+          "startLocal": "2026-09-30T17:30:00",
+          "endLocal": "2026-09-30T17:55:00",
+          "expectedOutcome": "Brief on open support themes and one deliverability talking point to raise if time allows.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=bWtuNWF2MmQ3MzZjaGJyczY4dWU1Mjg3NHJfMjAyNjA5MzBUMTgzMDAwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t",
+          "rationale": "Customer RNC x Iterable Bi-Weekly Sync Wed 2:30 PM ET; standing agenda covers priorities, support tickets, and deliverability."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-10-01",
+      "blocks": [],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-10-02",
+      "blocks": [
+        {
+          "workItemId": "boll-branch-sa-followup",
+          "title": "🎯 Prep: Prepare Boll & Branch SA follow-up: audit findings recap",
+          "startLocal": "2026-10-02T09:00:00",
+          "endLocal": "2026-10-02T09:30:00",
+          "expectedOutcome": "Structured recap of discovery gaps (identity, suppressions, Catalog) and 3 questions to close before the follow-up call.",
+          "sourceUrl": "https://docs.google.com/document/d/1CzoiMtTaJXYY7KmvOl6ClS17Mq4W40YSHHtG3ytBt7g",
+          "rationale": "External Boll & Branch + Iterable SA Follow-up Fri 1:00 PM ET; Sep 16 discovery notes flag global suppression and integration questions for follow-up."
+        }
+      ],
+      "unassignedItemIds": []
+    }
+  ]
+}

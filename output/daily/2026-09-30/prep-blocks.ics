@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//daily-impact-prioritizer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260930T150000-PrepPreparePayPalHoneyar@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260930T150000
+DTEND;TZID=America/New_York:20260930T153000
+SUMMARY:🎯 Prep: Prepare PayPal Honey architecture review part 2: carry-f
+ orward proof points
+DESCRIPTION:Expected outcome One-page outline: architecture proof points 
+ from prior session notes\, 3 discovery questions\, and open integration 
+ items to close on the call. Why now External Iterable + PayPal Honey Arc
+ hitecture Review Part 2 Wed noon ET\; Sep 25 prep doc and recent activit
+ y on data model and integration talking points. Source https://docs.goog
+ le.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA Managed b
+ y daily-impact-prioritizer. Run date: 2026-09-30
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260930T102500-PrepPrepareRGGjourneyrev@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260930T102500
+DTEND;TZID=America/New_York:20260930T105000
+SUMMARY:🎯 Prep: Prepare RGG journey review: questions and journey gaps
+DESCRIPTION:Expected outcome Three journey-specific discovery questions a
+ nd any Iterable capability gaps to flag with Chelsea on the call. Why no
+ w External Journey Review with RGG Wed 11:00 AM ET\; Robert created the 
+ series—needs concise journey talking points ahead of PayPal same day. So
+ urce https://www.google.com/calendar/event?eid=NnNoM2VldWYwY2ZlMWF1ZzlwM
+ W50cHVmOW0gcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by daily-impact-pr
+ ioritizer. Run date: 2026-09-30
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260930T170000-PrepPrepareRedfinbiweekl@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260930T170000
+DTEND;TZID=America/New_York:20260930T173000
+SUMMARY:🎯 Prep: Prepare Redfin biweekly sync and EBR prep talking points
+DESCRIPTION:Expected outcome Top three open Zendesk/Jira themes with stat
+ us lines for biweekly\, plus two EBR prep bullets tied to the Oct onsite
+  report. Why now Redfin / Iterable biweekly Wed 4:00 PM ET plus EBR prep
+  block same evening\; recent onsite report and shared agenda doc frame o
+ pen latency and stability threads. Source https://docs.google.com/docume
+ nt/d/1TYPKuHAKJZmJOFQuiSfYMNZJ_jziSZB_wF773a-XyIw Managed by daily-impac
+ t-prioritizer. Run date: 2026-09-30
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260930T173000-PrepPrepareRNCxIterableb@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20260930T173000
+DTEND;TZID=America/New_York:20260930T175500
+SUMMARY:🎯 Prep: Prepare RNC x Iterable bi-weekly: agenda and deliverabil
+ ity topics
+DESCRIPTION:Expected outcome Brief on open support themes and one deliver
+ ability talking point to raise if time allows. Why now Customer RNC x It
+ erable Bi-Weekly Sync Wed 2:30 PM ET\; standing agenda covers priorities
+ \, support tickets\, and deliverability. Source https://www.google.com/c
+ alendar/event?eid=bWtuNWF2MmQ3MzZjaGJyczY4dWU1Mjg3NHJfMjAyNjA5MzBUMTgzMD
+ AwWiByb2JlcnQuYmllaG5AaXRlcmFibGUuY29t Managed by daily-impact-prioritiz
+ er. Run date: 2026-09-30
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20261002T090000-PrepPrepareBollBranchSAf@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20261002T090000
+DTEND;TZID=America/New_York:20261002T093000
+SUMMARY:🎯 Prep: Prepare Boll & Branch SA follow-up: audit findings recap
+DESCRIPTION:Expected outcome Structured recap of discovery gaps (identity
+ \, suppressions\, Catalog) and 3 questions to close before the follow-up
+  call. Why now External Boll &amp\; Branch + Iterable SA Follow-up Fri 1
+ :00 PM ET\; Sep 16 discovery notes flag global suppression and integrati
+ on questions for follow-up. Source https://docs.google.com/document/d/1C
+ zoiMtTaJXYY7KmvOl6ClS17Mq4W40YSHHtG3ytBt7g Managed by daily-impact-prior
+ itizer. Run date: 2026-09-30
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
