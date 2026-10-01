@@ -1,0 +1,64 @@
+{
+  "timezone": "America/New_York",
+  "generatedAt": "2026-10-01T10:02:33.488Z",
+  "runDate": "2026-10-01",
+  "days": [
+    {
+      "date": "2026-10-01",
+      "blocks": [
+        {
+          "workItemId": "ask-product-sync-oct1",
+          "title": "🎯 Prep: Prepare Ask Product Sync: bot test criteria and open SA escalations",
+          "startLocal": "2026-10-01T11:00:00",
+          "endLocal": "2026-10-01T11:30:00",
+          "expectedOutcome": "Three prioritized product questions or bot-test guardrails with customer context ready to discuss with Luke and Mike.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=MHMwaDA4cThvaWtuN2R2ZzZvbHZqbXBpbzggcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "Ask Product Sync Thu 12:00 PM ET with Luke Stock and Mike Kane; recent activity on Ask Product enablement scoping and SpaceXAI bot working session Fri—need aligned backlog for the sync."
+        },
+        {
+          "workItemId": "deal-notes-deal-app",
+          "title": "🎯 Prep: Prepare Deal Notes Deal App review: rebuild scope and SA questions",
+          "startLocal": "2026-10-01T13:00:00",
+          "endLocal": "2026-10-01T13:25:00",
+          "expectedOutcome": "Bullet list of open technical questions on Deal App architecture and what SA input is needed from the rebuild discussion.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=MGZhYnNnMXJmdmxqbjJscmRvaGxwYWxqMTcgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "Deal Notes — Deal App Review and Rebuild Thu 9:00 AM ET; internal working session to align on app review scope before customer-facing rebuild decisions."
+        }
+      ],
+      "unassignedItemIds": []
+    },
+    {
+      "date": "2026-10-02",
+      "blocks": [
+        {
+          "workItemId": "paypal-honey-architecture-part2",
+          "title": "🎯 Prep: Prepare PayPal Honey architecture review part 2: carry-forward proof points",
+          "startLocal": "2026-10-02T09:30:00",
+          "endLocal": "2026-10-02T10:00:00",
+          "expectedOutcome": "One-page outline: architecture proof points from prior session notes, 3 discovery questions, and open integration items to close on the call.",
+          "sourceUrl": "https://docs.google.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA",
+          "rationale": "External Iterable + PayPal Honey Architecture Review Part 2 Fri 3:30 PM ET; Sep 24 internal prep doc frames P1 experiment hygiene and data-architecture talking points for part 2."
+        },
+        {
+          "workItemId": "boll-branch-sa-followup",
+          "title": "🎯 Prep: Prepare Boll & Branch SA follow-up: audit findings recap",
+          "startLocal": "2026-10-02T10:00:00",
+          "endLocal": "2026-10-02T10:30:00",
+          "expectedOutcome": "Structured recap of discovery gaps (identity, suppressions, Catalog) and 3 questions to close before the follow-up call.",
+          "sourceUrl": "https://docs.google.com/document/d/1CzoiMtTaJXYY7KmvOl6ClS17Mq4W40YSHHtG3ytBt7g",
+          "rationale": "External Boll & Branch + Iterable SA Follow-up Fri 1:00 PM ET; Sep 16 discovery notes flag global suppression and Shopify Catalog integration questions for follow-up."
+        },
+        {
+          "workItemId": "spacexai-ask-product-bot",
+          "title": "🎯 Prep: Prepare SpaceXAI Ask Product Bot session: success criteria and guardrails",
+          "startLocal": "2026-10-02T10:30:00",
+          "endLocal": "2026-10-02T11:00:00",
+          "expectedOutcome": "Draft checklist mapping invite success criteria to Iterable data sources and PM-approval guardrails to confirm on the call.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=N2dtc3Rpczd0ZGU2ZTkzMTkxM3A3NzhqaHUgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "External Iterable <> SpaceXAI working session Fri 2:00 PM ET; invite describes four bot jobs (answer, triage, chase, close) and explicit success criteria for a four-week test."
+        }
+      ],
+      "unassignedItemIds": []
+    }
+  ]
+}

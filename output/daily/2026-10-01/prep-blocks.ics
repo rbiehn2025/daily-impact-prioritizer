@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//daily-impact-prioritizer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20261001T110000-PrepPrepareAskProductSyn@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20261001T110000
+DTEND;TZID=America/New_York:20261001T113000
+SUMMARY:🎯 Prep: Prepare Ask Product Sync: bot test criteria and open SA 
+ escalations
+DESCRIPTION:Expected outcome Three prioritized product questions or bot-t
+ est guardrails with customer context ready to discuss with Luke and Mike
+ . Why now Ask Product Sync Thu 12:00 PM ET with Luke Stock and Mike Kane
+ \; recent activity on Ask Product enablement scoping and SpaceXAI bot wo
+ rking session Fri—need aligned backlog for the sync. Source https://www.
+ google.com/calendar/event?eid=MHMwaDA4cThvaWtuN2R2ZzZvbHZqbXBpbzggcm9iZX
+ J0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by daily-impact-prioritizer. Run da
+ te: 2026-10-01
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20261001T130000-PrepPrepareDealNotesDeal@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20261001T130000
+DTEND;TZID=America/New_York:20261001T132500
+SUMMARY:🎯 Prep: Prepare Deal Notes Deal App review: rebuild scope and SA
+  questions
+DESCRIPTION:Expected outcome Bullet list of open technical questions on D
+ eal App architecture and what SA input is needed from the rebuild discus
+ sion. Why now Deal Notes — Deal App Review and Rebuild Thu 9:00 AM ET\; 
+ internal working session to align on app review scope before customer-fa
+ cing rebuild decisions. Source https://www.google.com/calendar/event?eid
+ =MGZhYnNnMXJmdmxqbjJscmRvaGxwYWxqMTcgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ 
+ Managed by daily-impact-prioritizer. Run date: 2026-10-01
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20261002T093000-PrepPreparePayPalHoneyar@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20261002T093000
+DTEND;TZID=America/New_York:20261002T100000
+SUMMARY:🎯 Prep: Prepare PayPal Honey architecture review part 2: carry-f
+ orward proof points
+DESCRIPTION:Expected outcome One-page outline: architecture proof points 
+ from prior session notes\, 3 discovery questions\, and open integration 
+ items to close on the call. Why now External Iterable + PayPal Honey Arc
+ hitecture Review Part 2 Fri 3:30 PM ET\; Sep 24 internal prep doc frames
+  P1 experiment hygiene and data-architecture talking points for part 2. 
+ Source https://docs.google.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tcea
+ D3MxMHuwD0u7LA Managed by daily-impact-prioritizer. Run date: 2026-10-01
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20261002T100000-PrepPrepareBollBranchSAf@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20261002T100000
+DTEND;TZID=America/New_York:20261002T103000
+SUMMARY:🎯 Prep: Prepare Boll & Branch SA follow-up: audit findings recap
+DESCRIPTION:Expected outcome Structured recap of discovery gaps (identity
+ \, suppressions\, Catalog) and 3 questions to close before the follow-up
+  call. Why now External Boll &amp\; Branch + Iterable SA Follow-up Fri 1
+ :00 PM ET\; Sep 16 discovery notes flag global suppression and Shopify C
+ atalog integration questions for follow-up. Source https://docs.google.c
+ om/document/d/1CzoiMtTaJXYY7KmvOl6ClS17Mq4W40YSHHtG3ytBt7g Managed by da
+ ily-impact-prioritizer. Run date: 2026-10-01
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20261002T103000-PrepPrepareSpaceXAIAskPr@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20261002T103000
+DTEND;TZID=America/New_York:20261002T110000
+SUMMARY:🎯 Prep: Prepare SpaceXAI Ask Product Bot session: success criter
+ ia and guardrails
+DESCRIPTION:Expected outcome Draft checklist mapping invite success crite
+ ria to Iterable data sources and PM-approval guardrails to confirm on th
+ e call. Why now External Iterable &lt\;&gt\; SpaceXAI working session Fr
+ i 2:00 PM ET\; invite describes four bot jobs (answer\, triage\, chase\,
+  close) and explicit success criteria for a four-week test. Source https
+ ://www.google.com/calendar/event?eid=N2dtc3Rpczd0ZGU2ZTkzMTkxM3A3NzhqaHU
+ gcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by daily-impact-prioritizer.
+  Run date: 2026-10-01
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
