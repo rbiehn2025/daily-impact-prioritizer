@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Boll &amp; Branch — Platform Health Assessment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Spectral:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --dark: #160F29;
+      --teal: #005A72;
+      --light: #FFFAF6;
+      --mint: #96CFAE;
+      --teal-soft: #E8F4F0;
+      --slide-pad: clamp(2rem, 5vw, 4rem);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; overflow: hidden; background: var(--dark); font-family: Poppins, system-ui, sans-serif; color: var(--dark); }
+    .deck { height: 100vh; width: 100vw; position: relative; }
+    .slide {
+      position: absolute; inset: 0; padding: var(--slide-pad);
+      display: flex; flex-direction: column; justify-content: center;
+      opacity: 0; pointer-events: none; transition: opacity 0.35s ease;
+      overflow-y: auto;
+    }
+    .slide.active { opacity: 1; pointer-events: auto; z-index: 1; }
+    .slide.dark { background: var(--dark); color: var(--light); }
+    .slide.light { background: var(--light); color: var(--dark); }
+    .eyebrow { font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--teal); margin-bottom: 0.75rem; }
+    .slide.dark .eyebrow { color: var(--mint); }
+    h1, h2 { font-family: Spectral, Georgia, serif; font-weight: 700; line-height: 1.15; }
+    h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); max-width: 14ch; }
+    h2 { font-size: clamp(1.6rem, 3.5vw, 2.4rem); margin-bottom: 1.25rem; }
+    .subtitle { font-size: 1.15rem; opacity: 0.9; margin-top: 1rem; }
+    .conf { font-size: 0.75rem; opacity: 0.6; margin-top: 2rem; }
+    ol.agenda { list-style: none; counter-reset: ag; font-size: 1.05rem; line-height: 1.9; max-width: 42rem; }
+    ol.agenda li { counter-increment: ag; padding-left: 2.5rem; position: relative; }
+    ol.agenda li::before {
+      content: counter(ag, decimal-leading-zero);
+      position: absolute; left: 0; font-weight: 600; color: var(--teal);
+    }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 56rem; }
+    @media (max-width: 768px) { .two-col { grid-template-columns: 1fr; } }
+    ul.bullets { padding-left: 1.2rem; line-height: 1.7; font-size: 0.95rem; }
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; max-width: 52rem; margin-top: 1rem; }
+    @media (max-width: 900px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+    .stat { text-align: center; padding: 1.25rem; background: var(--teal-soft); border-radius: 8px; }
+    .stat .num { font-family: Spectral, serif; font-size: 2rem; font-weight: 700; color: var(--teal); }
+    .stat .label { font-size: 0.8rem; margin-top: 0.35rem; }
+    table.health { border-collapse: collapse; max-width: 28rem; width: 100%; }
+    table.health td { padding: 0.5rem 0; border-bottom: 1px solid #ddd; font-size: 0.95rem; }
+    table.health .rating { text-align: right; font-weight: 600; color: var(--teal); }
+    .divider { justify-content: center; align-items: center; text-align: center; }
+    .divider h2 { font-size: clamp(2rem, 4vw, 3rem); color: var(--light); }
+    .divider .sub { color: var(--mint); font-size: 1.1rem; margin-top: 0.5rem; }
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; max-width: 56rem; }
+    .card {
+      background: #fff; border-radius: 10px; padding: 1rem 1.1rem;
+      border-left: 4px solid var(--teal); box-shadow: 0 2px 12px rgba(22,15,41,0.08);
+    }
+    .card header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+    .card .area { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.08em; color: var(--teal); }
+    .card .effort {
+      font-size: 0.65rem; font-weight: 600; padding: 0.15rem 0.5rem;
+      border-radius: 999px; background: var(--teal-soft); color: var(--teal);
+    }
+    .card h3 { font-family: Poppins, sans-serif; font-size: 0.95rem; font-weight: 600; margin-bottom: 0.5rem; line-height: 1.35; }
+    .card .rec { font-size: 0.82rem; line-height: 1.45; color: #444; }
+    .card-p1 { border-left-color: #c0392b; }
+    .card-p1 .area { color: #c0392b; }
+    .risks { max-width: 40rem; font-size: 1.05rem; line-height: 1.7; }
+    .risks li { margin-bottom: 0.75rem; }
+    .roadmap { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; max-width: 56rem; }
+    @media (max-width: 900px) { .roadmap { grid-template-columns: 1fr; } }
+    .roadmap-col h3 { font-size: 0.95rem; color: var(--teal); margin-bottom: 0.5rem; }
+    .roadmap-col ul { font-size: 0.82rem; line-height: 1.5; padding-left: 1.1rem; }
+    .exec { max-width: 48rem; font-size: 0.92rem; line-height: 1.65; }
+    .exec p { margin-bottom: 1rem; }
+    .nav-hint {
+      position: fixed; bottom: 1rem; right: 1.25rem; z-index: 10;
+      font-size: 0.7rem; color: rgba(255,250,246,0.5);
+    }
+    .progress {
+      position: fixed; bottom: 0; left: 0; height: 3px; background: var(--mint);
+      z-index: 10; transition: width 0.3s ease;
+    }
+    .slide-counter {
+      position: fixed; bottom: 1rem; left: 1.25rem; z-index: 10;
+      font-size: 0.75rem; color: rgba(255,250,246,0.55);
+    }
+    @media print {
+      html, body { overflow: visible; height: auto; }
+      .slide {
+        position: relative; opacity: 1 !important; pointer-events: auto;
+        page-break-after: always; min-height: 100vh;
+      }
+      .nav-hint, .slide-counter, .progress { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="deck" id="deck">
+    <section class="slide dark active" data-i="0">
+      <p class="eyebrow">Iterable · Solutions Architecture</p>
+      <h1>Platform Health Assessment</h1>
+      <p class="subtitle">Boll &amp; Branch · Project 4383<br />Oct 2, 2026 (partial export set)</p>
+      <p class="conf">CONFIDENTIAL — For customer review. Partial assessment based on available exports.</p>
+    </section>
+
+    <section class="slide light" data-i="1">
+      <p class="eyebrow">BOLL &amp; BRANCH · PLATFORM HEALTH ASSESSMENT</p>
+      <h2>Agenda</h2>
+      <ol class="agenda">
+        <li>What we reviewed &amp; scope limits</li>
+        <li>Executive summary &amp; health snapshot</li>
+        <li>Key metrics at a glance</li>
+        <li>P1 — High priority (1 finding)</li>
+        <li>P2 — Improvements (7 findings)</li>
+        <li>P3 — Optimizations (6 findings)</li>
+        <li>Top risks &amp; 30 / 60 / 90 roadmap</li>
+        <li>Next steps</li>
+      </ol>
+    </section>
+
+    <section class="slide light" data-i="2">
+      <p class="eyebrow">Scope</p>
+      <h2>What we reviewed</h2>
+      <div class="two-col">
+        <ul class="bullets">
+          <li>Campaign inventory &amp; send volume (Sigma)</li>
+          <li>Journeys (full project backup)</li>
+          <li>Dynamic lists (definitions export)</li>
+          <li>Experiments (inventory + details)</li>
+          <li>Snippets (handlebars extract)</li>
+          <li>Contacts &amp; custom-event trends (Sigma)</li>
+        </ul>
+        <div>
+          <p style="font-weight:600;color:var(--teal);margin-bottom:0.5rem;">Not in this pass</p>
+          <ul class="bullets">
+            <li>campaign_audit, custom-event-usage, search_counts_profile</li>
+            <li>template_handlebars, datafeed inventory, flagged lists</li>
+            <li>Per-campaign rows in Total Campaigns Created (aggregate only)</li>
+            <li>Campaign audit reconciliation gap until TSE export</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide light" data-i="3">
+      <p class="eyebrow">Summary</p>
+      <h2>Executive summary</h2>
+      <div class="exec">
+        <p>Partial Platform Health Assessment for Boll &amp; Branch (project 4383). This pass adds Sigma campaign and volume trends (6,276 total campaigns; 1,827 Running; email-only sends) on top of Journeys, Lists, Experiments, Snippets, and profile/event trend CSVs. Campaign audit, custom-event-usage, profile field usage counts, and template handlebars are still missing.</p>
+        <p>Top operational risks: 1,033 Running experiments (586 pre-2023) and 1,827 Running campaigns (29%). Journey enablement is 52.4% (267/510) with 56 enabled journeys showing orphaned nodes. List inventory: 1,546 dynamic; 315 Contains / 45 MatchesRegex.</p>
+        <p>Send volume is email-only and seasonal (~229M emails in 2024; peak Dec 2025 ~68.6M). Profiles grew ~3.17M to ~4.75M (Feb 2024–Sep 2026). Custom events spiked to ~10.0M in Jan 2026 without per-event usage data to explain the shift.</p>
+      </div>
+    </section>
+
+    <section class="slide light" data-i="4">
+      <p class="eyebrow">Health snapshot</p>
+      <h2>Qualitative ratings</h2>
+      <table class="health"><tbody>
+        <tr><td>Data Architecture</td><td class="rating">Needs Attention</td></tr>
+        <tr><td>Platform Configuration</td><td class="rating">Needs Attention</td></tr>
+        <tr><td>Feature Adoption</td><td class="rating">Average</td></tr>
+        <tr><td>Reporting Measurement</td><td class="rating">Average</td></tr>
+        <tr><td>Program Health</td><td class="rating">Needs Attention</td></tr>
+      </tbody></table>
+    </section>
+
+    <section class="slide light" data-i="5">
+      <p class="eyebrow">Metrics</p>
+      <h2>At a glance</h2>
+      <div class="stats">
+        <div class="stat"><div class="num">6,276</div><div class="label">Campaigns (Sigma)</div></div>
+        <div class="stat"><div class="num">3,665,073</div><div class="label">Custom events / mo (Sep 2026)</div></div>
+        <div class="stat"><div class="num">510</div><div class="label">Journeys · 52.4% enabled</div></div>
+        <div class="stat"><div class="num">1,033</div><div class="label">Running experiments</div></div>
+      </div>
+      <div class="stats" style="margin-top:1rem;grid-template-columns:repeat(3,1fr);">
+        <div class="stat"><div class="num">1,827</div><div class="label">Running campaigns</div></div>
+        <div class="stat"><div class="num">1,546</div><div class="label">Dynamic lists</div></div>
+        <div class="stat"><div class="num">586</div><div class="label">Experiments Running &lt;2023</div></div>
+      </div>
+    </section>
+
+    <section class="slide dark divider" data-i="6">
+      <p class="eyebrow">P1 — High priority</p>
+      <h2>Address immediately</h2>
+      <p class="sub">1 critical finding</p>
+    </section>
+
+    <section class="slide light" data-i="7">
+      <p class="eyebrow">P1 findings</p>
+      <h2>High priority</h2>
+      <div class="card-grid">
+        <article class="card card-p1">
+          <header><span class="area">EXPERIMENTATION</span><span class="effort">Medium</span></header>
+          <h3>Large backlog of long-lived Running experiments</h3>
+          <p class="rec"><strong>Recommendation:</strong> Bulk-finish or archive pre-2023 Running experiments; assign DRIs; fix inventory created_at export.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="slide dark divider" data-i="8">
+      <p class="eyebrow">P2 — Improvements</p>
+      <h2>Address within 60 days</h2>
+      <p class="sub">7 findings</p>
+    </section>
+
+    <section class="slide light" data-i="9">
+      <p class="eyebrow">P2 findings (1/2)</p>
+      <h2>Improvements</h2>
+      <div class="card-grid">
+        <article class="card"><header><span class="area">CAMPAIGNS</span><span class="effort">Medium</span></header><h3>High share of campaigns in Running state</h3><p class="rec"><strong>Recommendation:</strong> Reconcile Running to journey graph when campaign audit is available; archive stale blasts.</p></article>
+        <article class="card"><header><span class="area">CAMPAIGNS</span><span class="effort">Medium</span></header><h3>Ready campaign backlog</h3><p class="rec"><strong>Recommendation:</strong> Schedule, finish, or archive Ready campaigns (889).</p></article>
+        <article class="card"><header><span class="area">JOURNEYS</span><span class="effort">High</span></header><h3>Enabled journeys with structural debt</h3><p class="rec"><strong>Recommendation:</strong> Repair orphaned-node journeys; simplify graphs over ~30 nodes.</p></article>
+        <article class="card"><header><span class="area">JOURNEYS</span><span class="effort">Low</span></header><h3>Test / QA journeys still enabled</h3><p class="rec"><strong>Recommendation:</strong> Disable non-production journeys immediately.</p></article>
+      </div>
+    </section>
+
+    <section class="slide light" data-i="10">
+      <p class="eyebrow">P2 findings (2/2)</p>
+      <h2>Improvements</h2>
+      <div class="card-grid">
+        <article class="card"><header><span class="area">LISTS</span><span class="effort">Medium</span></header><h3>Contains and MatchesRegex list-performance surface</h3><p class="rec"><strong>Recommendation:</strong> Prioritize remediation; export flagged-list CSV when tooling allows.</p></article>
+        <article class="card"><header><span class="area">ANALYTICS</span><span class="effort">Medium</span></header><h3>Custom event volume volatility without taxonomy export</h3><p class="rec"><strong>Recommendation:</strong> Reconcile Jan 2026 spike with data/engineering before event retirement.</p></article>
+        <article class="card"><header><span class="area">EXPERIMENTATION</span><span class="effort">Medium</span></header><h3>Winner-takes-all experiments left Running</h3><p class="rec"><strong>Recommendation:</strong> Close completed WTA tests (240 still Running).</p></article>
+      </div>
+    </section>
+
+    <section class="slide dark divider" data-i="11">
+      <p class="eyebrow">P3 — Optimizations</p>
+      <h2>Plan for 90 days</h2>
+      <p class="sub">6 opportunities</p>
+    </section>
+
+    <section class="slide light" data-i="12">
+      <p class="eyebrow">P3 findings (1/2)</p>
+      <h2>Optimizations</h2>
+      <div class="card-grid">
+        <article class="card"><header><span class="area">CAMPAIGNS</span><span class="effort">Low</span></header><h3>Email-dominant channel mix</h3><p class="rec"><strong>Recommendation:</strong> Document channel strategy; add consent/deliverability review if expanding Push/SMS.</p></article>
+        <article class="card"><header><span class="area">CAMPAIGNS</span><span class="effort">Low</span></header><h3>Blast-heavy creation pattern</h3><p class="rec"><strong>Recommendation:</strong> Balance triggered automation vs blast sends.</p></article>
+        <article class="card"><header><span class="area">USER PROFILE</span><span class="effort">Low</span></header><h3>Steady subscriber growth</h3><p class="rec"><strong>Recommendation:</strong> Align with consent/retention policy when exports available.</p></article>
+      </div>
+    </section>
+
+    <section class="slide light" data-i="13">
+      <p class="eyebrow">P3 findings (2/2)</p>
+      <h2>Optimizations</h2>
+      <div class="card-grid">
+        <article class="card"><header><span class="area">TEMPLATES</span><span class="effort">Low</span></header><h3>Template velocity without handlebars extract</h3><p class="rec"><strong>Recommendation:</strong> Run template handlebars extract when pulls are restored.</p></article>
+        <article class="card"><header><span class="area">JOURNEYS</span><span class="effort">Low</span></header><h3>Published-but-disabled inventory</h3><p class="rec"><strong>Recommendation:</strong> Archive long-disabled journeys (237).</p></article>
+        <article class="card"><header><span class="area">LISTS</span><span class="effort">Medium</span></header><h3>Legacy list sprawl vs low recent churn</h3><p class="rec"><strong>Recommendation:</strong> Tag active vs legacy lists.</p></article>
+      </div>
+    </section>
+
+    <section class="slide dark" data-i="14">
+      <p class="eyebrow">Risks</p>
+      <h2>Top program risks</h2>
+      <ol class="risks">
+        <li>1,827 Running campaigns (29% of 6,276) plus 889 Ready — governance surface without campaign audit</li>
+        <li>1,033 Running experiments with 586 pre-2023 still open</li>
+        <li>56 enabled journeys with orphaned nodes; 315 Contains / 45 MatchesRegex lists</li>
+      </ol>
+    </section>
+
+    <section class="slide light" data-i="15">
+      <p class="eyebrow">Roadmap</p>
+      <h2>30 / 60 / 90 days</h2>
+      <div class="roadmap">
+        <div class="roadmap-col"><h3>30 days</h3><ul>
+          <li>Pull campaign audit; reconcile Running/Ready to owners</li>
+          <li>Archive pre-2023 Running experiments (586)</li>
+          <li>Disable test journeys; triage orphaned-node journeys</li>
+        </ul></div>
+        <div class="roadmap-col"><h3>60 days</h3><ul>
+          <li>Reduce Ready backlog (889) and stale Running campaigns</li>
+          <li>Export custom-event-usage; remediate Contains/Regex lists</li>
+          <li>Simplify enabled journeys &gt;30 nodes (26 enabled)</li>
+        </ul></div>
+        <div class="roadmap-col"><h3>90 days</h3><ul>
+          <li>Quarterly campaign + experiment hygiene</li>
+          <li>template_handlebars extract; complete worksheet scoring</li>
+        </ul></div>
+      </div>
+    </section>
+
+    <section class="slide light" data-i="16">
+      <p class="eyebrow">Close</p>
+      <h2>Next steps</h2>
+      <ol class="agenda">
+        <li>Assign DRIs and target dates for each P1 finding</li>
+        <li>Review full written report (companion to this deck)</li>
+        <li>Paste exhibit TSVs into audit worksheet</li>
+        <li>30-day check-in with Iterable SA</li>
+        <li>Prioritize top P2 items for next sprint</li>
+        <li>Re-run assessment when campaign audit &amp; event usage exports are available</li>
+      </ol>
+    </section>
+
+    <section class="slide dark" data-i="17" style="align-items:center;text-align:center;">
+      <h2>Thank you</h2>
+      <p class="subtitle" style="margin-top:1rem;">Boll &amp; Branch · Platform Health Assessment</p>
+    </section>
+  </div>
+  <div class="progress" id="progress"></div>
+  <div class="slide-counter" id="counter"></div>
+  <div class="nav-hint">← → or click to navigate · P to print PDF</div>
+  <script>
+    const slides = [...document.querySelectorAll('.slide')];
+    let idx = 0;
+    const progress = document.getElementById('progress');
+    const counter = document.getElementById('counter');
+    function go(n) {
+      idx = Math.max(0, Math.min(slides.length - 1, n));
+      slides.forEach((s, i) => s.classList.toggle('active', i === idx));
+      progress.style.width = ((idx + 1) / slides.length * 100) + '%';
+      counter.textContent = (idx + 1) + ' / ' + slides.length;
+    }
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); go(idx + 1); }
+      if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); go(idx - 1); }
+      if (e.key === 'Home') go(0);
+      if (e.key === 'End') go(slides.length - 1);
+      if (e.key === 'p' || e.key === 'P') window.print();
+    });
+    document.getElementById('deck').addEventListener('click', (e) => {
+      const x = e.clientX / window.innerWidth;
+      if (x > 0.65) go(idx + 1);
+      else if (x < 0.35) go(idx - 1);
+    });
+    go(0);
+  </script>
+</body>
+</html>
