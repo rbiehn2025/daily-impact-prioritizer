@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//daily-impact-prioritizer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20261002T090000-PrepPrepareBollBranchSAf@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20261002T090000
+DTEND;TZID=America/New_York:20261002T093000
+SUMMARY:🎯 Prep: Prepare Boll & Branch SA follow-up: audit findings recap
+DESCRIPTION:Expected outcome Structured recap of discovery gaps (identity
+ \, suppressions\, Catalog) and 3 questions to close before the follow-up
+  call. Why now External Boll &amp\; Branch + Iterable SA Follow-up Fri 1
+ :00 PM ET\; Sep 16 discovery notes flag global suppression and Shopify C
+ atalog integration questions for follow-up. Source https://docs.google.c
+ om/document/d/1CzoiMtTaJXYY7KmvOl6ClS17Mq4W40YSHHtG3ytBt7g Managed by da
+ ily-impact-prioritizer. Run date: 2026-10-02
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20261002T093000-PrepPrepareSpaceXAIAskPr@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20261002T093000
+DTEND;TZID=America/New_York:20261002T100000
+SUMMARY:🎯 Prep: Prepare SpaceXAI Ask Product Bot session: success criter
+ ia and guardrails
+DESCRIPTION:Expected outcome Draft checklist mapping invite success crite
+ ria to Iterable data sources and PM-approval guardrails to confirm on th
+ e call. Why now External Iterable &lt\;&gt\; SpaceXAI working session Fr
+ i 2:00 PM ET\; invite describes four bot jobs (answer\, triage\, chase\,
+  close) and explicit success criteria for a four-week test. Source https
+ ://www.google.com/calendar/event?eid=N2dtc3Rpczd0ZGU2ZTkzMTkxM3A3NzhqaHU
+ gcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ Managed by daily-impact-prioritizer.
+  Run date: 2026-10-02
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20261002T100000-PrepPreparePayPalHoneyar@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20261002T100000
+DTEND;TZID=America/New_York:20261002T103000
+SUMMARY:🎯 Prep: Prepare PayPal Honey architecture review part 2: carry-f
+ orward proof points
+DESCRIPTION:Expected outcome One-page outline: architecture proof points 
+ from prior session notes\, 3 discovery questions\, and open integration 
+ items to close on the call. Why now External Iterable + PayPal Honey Arc
+ hitecture Review Part 2 Fri 3:30 PM ET\; Sep 24 internal prep doc frames
+  P1 experiment hygiene and data-architecture talking points for part 2. 
+ Source https://docs.google.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tcea
+ D3MxMHuwD0u7LA Managed by daily-impact-prioritizer. Run date: 2026-10-02
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20261002T163000-PrepPrepareAskProductBug@daily-impact-prioritizer
+DTSTART;TZID=America/New_York:20261002T163000
+DTEND;TZID=America/New_York:20261002T165500
+SUMMARY:🎯 Prep: Prepare Ask Product Bug Bash: SA escalations and bot edg
+ e cases
+DESCRIPTION:Expected outcome Three concrete repro scenarios or open Ask-p
+ ath questions with customer context ready to raise during the bug bash. 
+ Why now Internal Ask Product Bug Bash Fri 11:00 AM ET with Luke Stock\; 
+ recent #product questions ledger and MCP v2 staging tests surface SA-rel
+ evant edge cases worth exercising in the bash. Source https://www.google
+ .com/calendar/event?eid=NXJiazhlN2NuNXA4ZTFlaHRkMW9rYTlzZmIgcm9iZXJ0LmJp
+ ZWhuQGl0ZXJhYmxlLmNvbQ Managed by daily-impact-prioritizer. Run date: 20
+ 26-10-02
+CLASS:PRIVATE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

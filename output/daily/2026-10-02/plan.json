@@ -1,0 +1,51 @@
+{
+  "timezone": "America/New_York",
+  "generatedAt": "2026-10-02T10:04:32.774Z",
+  "runDate": "2026-10-02",
+  "days": [
+    {
+      "date": "2026-10-02",
+      "blocks": [
+        {
+          "workItemId": "boll-branch-sa-followup",
+          "title": "🎯 Prep: Prepare Boll & Branch SA follow-up: audit findings recap",
+          "startLocal": "2026-10-02T09:00:00",
+          "endLocal": "2026-10-02T09:30:00",
+          "expectedOutcome": "Structured recap of discovery gaps (identity, suppressions, Catalog) and 3 questions to close before the follow-up call.",
+          "sourceUrl": "https://docs.google.com/document/d/1CzoiMtTaJXYY7KmvOl6ClS17Mq4W40YSHHtG3ytBt7g",
+          "rationale": "External Boll & Branch + Iterable SA Follow-up Fri 1:00 PM ET; Sep 16 discovery notes flag global suppression and Shopify Catalog integration questions for follow-up."
+        },
+        {
+          "workItemId": "spacexai-ask-product-bot",
+          "title": "🎯 Prep: Prepare SpaceXAI Ask Product Bot session: success criteria and guardrails",
+          "startLocal": "2026-10-02T09:30:00",
+          "endLocal": "2026-10-02T10:00:00",
+          "expectedOutcome": "Draft checklist mapping invite success criteria to Iterable data sources and PM-approval guardrails to confirm on the call.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=N2dtc3Rpczd0ZGU2ZTkzMTkxM3A3NzhqaHUgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "External Iterable <> SpaceXAI working session Fri 2:00 PM ET; invite describes four bot jobs (answer, triage, chase, close) and explicit success criteria for a four-week test."
+        },
+        {
+          "workItemId": "paypal-honey-architecture-part2",
+          "title": "🎯 Prep: Prepare PayPal Honey architecture review part 2: carry-forward proof points",
+          "startLocal": "2026-10-02T10:00:00",
+          "endLocal": "2026-10-02T10:30:00",
+          "expectedOutcome": "One-page outline: architecture proof points from prior session notes, 3 discovery questions, and open integration items to close on the call.",
+          "sourceUrl": "https://docs.google.com/document/d/1Eei_tW8xQ4dmwFum3St42T1I3tceaD3MxMHuwD0u7LA",
+          "rationale": "External Iterable + PayPal Honey Architecture Review Part 2 Fri 3:30 PM ET; Sep 24 internal prep doc frames P1 experiment hygiene and data-architecture talking points for part 2."
+        },
+        {
+          "workItemId": "ask-product-bug-bash",
+          "title": "🎯 Prep: Prepare Ask Product Bug Bash: SA escalations and bot edge cases",
+          "startLocal": "2026-10-02T16:30:00",
+          "endLocal": "2026-10-02T16:55:00",
+          "expectedOutcome": "Three concrete repro scenarios or open Ask-path questions with customer context ready to raise during the bug bash.",
+          "sourceUrl": "https://www.google.com/calendar/event?eid=NXJiazhlN2NuNXA4ZTFlaHRkMW9rYTlzZmIgcm9iZXJ0LmJpZWhuQGl0ZXJhYmxlLmNvbQ",
+          "rationale": "Internal Ask Product Bug Bash Fri 11:00 AM ET with Luke Stock; recent #product questions ledger and MCP v2 staging tests surface SA-relevant edge cases worth exercising in the bash."
+        }
+      ],
+      "unassignedItemIds": [
+        "michael-1on1-friday"
+      ]
+    }
+  ]
+}
